@@ -1,0 +1,476 @@
+[01-Apr-2021 00:41:14 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[01-Apr-2021 00:41:15 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[01-Apr-2021 00:41:17 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[01-Apr-2021 00:41:18 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[01-Apr-2021 00:41:19 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[01-Apr-2021 00:41:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[01-Apr-2021 00:41:21 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[13-Apr-2021 02:57:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[13-Apr-2021 02:57:10 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[13-Apr-2021 02:57:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[13-Apr-2021 02:57:15 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[13-Apr-2021 02:57:17 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[13-Apr-2021 02:57:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[13-Apr-2021 02:57:22 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[13-Apr-2021 02:57:24 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[13-Apr-2021 02:58:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[13-Apr-2021 02:58:22 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[13-Apr-2021 02:58:24 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[13-Apr-2021 02:58:27 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[13-Apr-2021 02:58:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[13-Apr-2021 02:58:36 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[13-Apr-2021 02:58:38 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[13-Apr-2021 02:58:40 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[13-Apr-2021 02:58:47 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[13-Apr-2021 02:58:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[13-Apr-2021 02:58:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[13-Apr-2021 02:58:54 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[13-Apr-2021 02:58:57 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[13-Apr-2021 02:58:59 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[13-Apr-2021 02:59:01 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[13-Apr-2021 02:59:04 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[13-Apr-2021 02:59:06 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[13-Apr-2021 02:59:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[13-Apr-2021 02:59:11 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[13-Apr-2021 02:59:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[14-Apr-2021 10:07:07 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[14-Apr-2021 10:07:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[14-Apr-2021 10:07:10 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[14-Apr-2021 10:07:11 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[14-Apr-2021 10:07:12 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[14-Apr-2021 10:07:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[14-Apr-2021 10:07:14 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[19-Apr-2021 18:05:11 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[19-Apr-2021 18:05:17 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[19-Apr-2021 18:05:31 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[19-Apr-2021 18:05:41 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[19-Apr-2021 18:05:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[19-Apr-2021 18:05:55 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[19-Apr-2021 18:05:59 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[28-Apr-2021 17:02:29 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[28-Apr-2021 17:02:29 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[28-Apr-2021 17:02:31 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[28-Apr-2021 17:02:32 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[28-Apr-2021 17:02:33 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[28-Apr-2021 17:02:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[28-Apr-2021 17:02:35 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[12-May-2021 13:15:49 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[12-May-2021 13:15:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[12-May-2021 13:15:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[12-May-2021 13:15:53 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[12-May-2021 13:15:54 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[12-May-2021 13:15:55 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[12-May-2021 13:15:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[01-Jun-2021 22:52:06 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[01-Jun-2021 22:52:07 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[01-Jun-2021 22:52:09 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[01-Jun-2021 22:52:10 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[01-Jun-2021 22:52:11 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[01-Jun-2021 22:52:12 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[01-Jun-2021 22:52:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[06-Jun-2021 08:56:19 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[06-Jun-2021 08:56:28 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[06-Jun-2021 08:56:28 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[06-Jun-2021 09:20:35 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[06-Jun-2021 09:20:35 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[06-Jun-2021 09:20:35 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[06-Jun-2021 09:20:35 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[08-Jun-2021 09:35:49 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[08-Jun-2021 09:35:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[08-Jun-2021 09:35:54 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[08-Jun-2021 09:35:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[08-Jun-2021 09:35:59 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[08-Jun-2021 09:36:01 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[08-Jun-2021 09:36:03 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[08-Jun-2021 09:36:06 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[08-Jun-2021 09:37:01 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[08-Jun-2021 09:37:03 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[08-Jun-2021 09:37:05 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[08-Jun-2021 09:37:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[08-Jun-2021 09:37:15 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[08-Jun-2021 09:37:17 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[08-Jun-2021 09:37:19 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[08-Jun-2021 09:37:21 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[08-Jun-2021 09:37:28 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[08-Jun-2021 09:37:31 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[08-Jun-2021 09:37:33 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[08-Jun-2021 09:37:35 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[08-Jun-2021 09:37:38 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[08-Jun-2021 09:37:40 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[08-Jun-2021 09:37:42 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[08-Jun-2021 09:37:45 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[08-Jun-2021 09:37:47 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[08-Jun-2021 09:37:49 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[08-Jun-2021 09:37:51 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[08-Jun-2021 09:37:54 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[16-Jun-2021 02:59:19 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[16-Jun-2021 02:59:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[16-Jun-2021 02:59:21 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[16-Jun-2021 02:59:22 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[16-Jun-2021 02:59:24 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[16-Jun-2021 02:59:24 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[16-Jun-2021 02:59:25 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28
+[29-Jun-2021 22:35:07 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Canvas.php on line 28
+[29-Jun-2021 22:35:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Coordinate.php on line 29
+[29-Jun-2021 22:35:10 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Image.php on line 30
+[29-Jun-2021 22:35:11 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/MapperFactory.php on line 30
+[29-Jun-2021 22:35:12 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/OperationFactory.php on line 28
+[29-Jun-2021 22:35:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/PaletteImage.php on line 28
+[29-Jun-2021 22:35:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Image' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/TrueColorImage.php on line 28

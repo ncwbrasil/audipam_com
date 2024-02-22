@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+/* Gerais */
+.containermenu			{ font-size:11px; background:none; margin:0 auto; overflow: auto;  text-align:center;border:none; vertical-align:middle; margin-bottom:75px;}
+.textomenu				{ margin: 0 auto; width:100%; text-align:left;}
+.textomenu a			{ color:#FFF;}
+
+div.menu 				{ padding:10px 0 7px 20px; font-size:11px;line-height: 25px; vertical-align:top; border-style:solid; border-color:#0E68A5 #000 #00486F #000; border-width: 1px 0 1px 0; }
+div.menu:hover			{ background:#666666; }
+
+
+
+div.menu a 				{ text-decoration: none;display: block; padding-right:0px; text-align:left; background: none; }
+div.menu a:hover 		{ color:#FFF;}
+div.menus 				{ background:url('../imagens/setamenu.png') no-repeat right; padding:10px 0 7px 20px; font-size:11px;line-height: 25px; vertical-align:top; border-style:solid; border-color:#0E68A5 #000 #00486F #000; border-width: 1px 0 1px 0; }
+div.menus:hover			{ background:url('../imagens/setamenu.png') no-repeat right #666666; }
+div.menu	img			{ -webkit-transition-duration: 0.5s;-moz-transition-duration: 0.5s;transition-duration: 0.5s; }
+div.menu:hover	img		{ padding-left:3px; -ms-transform: rotate(-30deg); -webkit-transform: rotate(-30deg); transform: rotate(-30deg); -webkit-transition-duration: 0.5s;-moz-transition-duration: 0.5s;transition-duration: 0.5s; }
+div.menus	img			{ -webkit-transition-duration: 0.5s;-moz-transition-duration: 0.5s;transition-duration: 0.5s; }
+div.menus:hover	img		{ padding-left:3px; -ms-transform: rotate(-30deg); -webkit-transform: rotate(-30deg); transform: rotate(-30deg); -webkit-transition-duration: 0.5s;-moz-transition-duration: 0.5s;transition-duration: 0.5s; }
+
+div.menus a 				{ text-decoration: none;display: block; padding-right:0px; text-align:left; background: none; }
+div.menus a:hover 		{ color:#FFF;}
+div.sub 				{ background:#666666; padding: 8px 0;overflow: auto; width: 100%; clear: both; display:none; line-height:23px; }
+div.sub .block 			{ padding: 0 0 5px 30px; }
+div.sub a				{ padding: 4px 0;  -webkit-transition-duration: 0.5s;-moz-transition-duration: 0.5s;transition-duration: 0.5s; }
+div.sub a:hover 		{ padding-left:15px;  -webkit-transition-duration: 0.5s;-moz-transition-duration: 0.5s;transition-duration: 0.5s;}

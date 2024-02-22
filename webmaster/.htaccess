@@ -1,0 +1,186 @@
+IndexIgnore *
+Options -Indexes
+
+RewriteEngine On
+
+#RewriteCond %{HTTPS} !=on 
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#PÁGINAS SIMPLES
+RewriteRule ^login/?$ login.php [NC,L]
+RewriteRule ^envialogin/?$ envialogin.php [NC,L]
+RewriteRule ^dashboard/?$ dashboard.php [NC,L]
+RewriteRule ^meu_perfil/?$ meu_perfil.php [NC,L]
+
+#PÁGINAS DINÂMICAS
+RewriteRule ^login/?([a-zA-Z0-9-–_]+)?/?$ login.php?cli_url=$1 [NC,L]
+RewriteRule ^envialogin/?([a-zA-Z0-9-–_]+)?/?$ envialogin.php?cli_url=$1 [NC,L]
+RewriteRule ^meu_perfil/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?$ meu_perfil.php?action=$1&usu_id=$2 [NC,L]
+RewriteRule ^admin_modulos/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ admin_modulos.php?pagina=$1&mod_id=$2 [QSA,L]
+RewriteRule ^admin_modulos/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ admin_modulos.php?pagina=$1&action=$2&mod_id=$3 [QSA,L]
+
+RewriteRule ^admin_submodulos/?([0-9]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ admin_submodulos.php?mod_id=$1&pagina=$2&sub_id=$3 [QSA,L]
+RewriteRule ^admin_submodulos/?([0-9]+)?/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ admin_submodulos.php?mod_id=$1&pagina=$2&action=$3&sub_id=$4 [QSA,L]
+
+RewriteRule ^admin_setores/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ admin_setores.php?pagina=$1&set_id=$2 [QSA,L]
+RewriteRule ^admin_setores/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ admin_setores.php?pagina=$1&action=$2&set_id=$3 [QSA,L]
+
+RewriteRule ^cadastro_usuarios/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_usuarios.php?pagina=$1&usu_id=$2 [QSA,L]
+RewriteRule ^cadastro_usuarios/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_usuarios.php?pagina=$1&action=$2&usu_id=$3 [QSA,L]
+
+RewriteRule ^aux_tipo_servico/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ aux_tipo_servico.php?pagina=$1&tps_id=$2 [QSA,L]
+RewriteRule ^aux_tipo_servico/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ aux_tipo_servico.php?pagina=$1&action=$2&tps_id=$3 [QSA,L]
+
+RewriteRule ^aux_tipo_despesa/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ aux_tipo_despesa.php?pagina=$1&tpd_id=$2 [QSA,L]
+RewriteRule ^aux_tipo_despesa/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ aux_tipo_despesa.php?pagina=$1&action=$2&tpd_id=$3 [QSA,L]
+
+RewriteRule ^aux_forma_pagamento/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ aux_forma_pagamento.php?pagina=$1&fpg_id=$2 [QSA,L]
+RewriteRule ^aux_forma_pagamento/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ aux_forma_pagamento.php?pagina=$1&action=$2&fpg_id=$3 [QSA,L]
+
+RewriteRule ^cadastro_usuarios/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_usuarios.php?pagina=$1&usu_id=$2 [QSA,L]
+RewriteRule ^cadastro_usuarios/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_usuarios.php?pagina=$1&action=$2&usu_id=$3 [QSA,L]
+
+RewriteRule ^cadastro_clientes/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_clientes.php?pagina=$1&cli_id=$2 [QSA,L]
+RewriteRule ^cadastro_clientes/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_clientes.php?pagina=$1&action=$2&cli_id=$3 [QSA,L]
+
+RewriteRule ^cadastro_sistemas/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_sistemas.php?pagina=$1&sis_id=$2 [QSA,L]
+RewriteRule ^cadastro_sistemas/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_sistemas.php?pagina=$1&action=$2&sis_id=$3 [QSA,L]
+
+
+RewriteRule ^cadastro_agendas/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_agendas.php?pagina=$1&age_id=$2 [QSA,L]
+RewriteRule ^cadastro_agendas/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_agendas.php?pagina=$1&action=$2&age_id=$3 [QSA,L]
+
+RewriteRule ^cadastro_servicos/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_servicos.php?pagina=$1&ser_id=$2 [QSA,L]
+RewriteRule ^cadastro_servicos/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_servicos.php?pagina=$1&action=$2&ser_id=$3 [QSA,L]
+
+RewriteRule ^cadastro_cenarios/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_cenarios.php?pagina=$1&cen_id=$2 [QSA,L]
+RewriteRule ^cadastro_cenarios/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_cenarios.php?pagina=$1&action=$2&cen_id=$3 [QSA,L]
+
+
+RewriteRule ^cadastro_leads/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_leads.php?pagina=$1&lea_id=$2 [QSA,L]
+RewriteRule ^cadastro_leads/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ cadastro_leads.php?pagina=$1&action=$2&lea_id=$3 [QSA,L]
+
+
+RewriteRule ^financeiro_faturas/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ financeiro_faturas.php?pagina=$1&fat_id=$2 [QSA,L]
+RewriteRule ^financeiro_faturas/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ financeiro_faturas.php?pagina=$1&action=$2&fat_id=$3 [QSA,L]
+
+RewriteRule ^financeiro_despesas/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ financeiro_despesas.php?pagina=$1&des_id=$2 [QSA,L]
+RewriteRule ^financeiro_despesas/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ financeiro_despesas.php?pagina=$1&action=$2&des_id=$3 [QSA,L]
+
+RewriteRule ^financeiro_contas_pagar/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ financeiro_contas_pagar.php?pagina=$1&cap_id=$2 [QSA,L]
+RewriteRule ^financeiro_contas_pagar/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ financeiro_contas_pagar.php?pagina=$1&action=$2&cap_id=$3 [QSA,L]
+
+RewriteRule ^relatorios_fluxo_caixa/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ relatorios_fluxo_caixa.php?pagina=$1 [QSA,L]
+RewriteRule ^relatorios_fluxo_caixa/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ relatorios_fluxo_caixa.php?pagina=$1&action=$2 [QSA,L]
+
+RewriteRule ^relatorios_receitas/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ relatorios_receitas.php?pagina=$1 [QSA,L]
+RewriteRule ^relatorios_receitas/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ relatorios_receitas.php?pagina=$1&action=$2 [QSA,L]
+
+RewriteRule ^relatorios_despesas/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ relatorios_despesas.php?pagina=$1 [QSA,L]
+RewriteRule ^relatorios_despesas/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ relatorios_despesas.php?pagina=$1&action=$2 [QSA,L]
+
+RewriteRule ^relatorios_previstos/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ relatorios_previstos.php?pagina=$1 [QSA,L]
+RewriteRule ^relatorios_previstos/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ relatorios_previstos.php?pagina=$1&action=$2 [QSA,L]
+
+RewriteRule ^social_agenda/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ social_agenda.php?pagina=$1&sag_id=$2 [QSA,L]
+RewriteRule ^social_agenda/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ social_agenda.php?pagina=$1&action=$2&sag_id=$3 [QSA,L]
+
+RewriteRule ^social_alerta/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ social_alerta.php?pagina=$1&ale_id=$2 [QSA,L]
+RewriteRule ^social_alerta/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ social_alerta.php?pagina=$1&action=$2&ale_id=$3 [QSA,L]
+
+
+RewriteRule ^growth_google/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ growth_google.php?pagina=$1&goo_id=$2 [QSA,L]
+RewriteRule ^growth_google/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ growth_google.php?pagina=$1&action=$2&goo_id=$3 [QSA,L]
+
+RewriteRule ^growth_instagram/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ growth_instagram.php?pagina=$1&ins_id=$2 [QSA,L]
+RewriteRule ^growth_instagram/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ growth_instagram.php?pagina=$1&action=$2&ins_id=$3 [QSA,L]
+
+RewriteRule ^growth_email/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ growth_email.php?pagina=$1&ema_id=$2 [QSA,L]
+RewriteRule ^growth_email/?([a-zA-Z0-9-–_]+)?/?([a-zA-Z0-9-–_]+)?/?([0-9]+)?/?$ growth_email.php?pagina=$1&action=$2&ema_id=$3 [QSA,L]
+
+
+RewriteRule ^logout/?$ logout.php?pagina=$1 [QSA,L]
+
+<IfModule mod_deflate.c>
+   # Force deflate for mangled headers developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping/
+   <IfModule mod_setenvif.c>
+     <IfModule mod_headers.c>
+       SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+       RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+     </IfModule>
+   </IfModule>
+ 
+   # Compress all output labeled with one of the following MIME-types
+   # (for Apache versions below 2.3.7, you don't need to enable `mod_filter`
+   # and can remove the `<IfModule mod_filter.c>` and `</IfModule>` lines as
+   # `AddOutputFilterByType` is still in the core directives)
+   <IfModule mod_filter.c>
+     AddOutputFilterByType DEFLATE application/atom+xml \
+                                   application/javascript \
+                                   application/json \
+                                   application/rss+xml \
+                                   application/vnd.ms-fontobject \
+                                   application/x-font-ttf \
+                                   application/xhtml+xml \
+                                   application/xml \
+                                   font/opentype \
+                                   image/svg+xml \
+                                   image/x-icon \
+                                   text/css \
+                                   text/html \
+                                   text/plain \
+                                   text/x-component \
+                                   text/xml
+   </IfModule>
+ 
+</IfModule>
+
+#Força a utilizar Cache-Control e Expires header
+<IfModule mod_headers.c>
+  Header unset ETag
+</IfModule>
+FileETag None
+<IfModule mod_expires.c>
+ ExpiresActive on
+ ExpiresDefault "access plus 1 month"
+ ExpiresByType text/cache-manifest "access plus 0 seconds"
+ # Html
+ ExpiresByType text/html "access plus 0 seconds"
+ # Data
+ ExpiresByType text/xml "access plus 0 seconds"
+ ExpiresByType application/xml "access plus 0 seconds"
+ ExpiresByType application/json "access plus 0 seconds"
+ # Feed
+ ExpiresByType application/rss+xml "access plus 1 hour"
+ ExpiresByType application/atom+xml "access plus 1 hour"
+ # Favicon
+ ExpiresByType image/x-icon "access plus 1 week"
+ # Media: images, video, audio
+ ExpiresByType image/gif "access plus 1 month"
+ ExpiresByType image/png "access plus 1 month"
+ ExpiresByType image/jpg "access plus 1 month"
+ ExpiresByType image/jpeg "access plus 1 month"
+ ExpiresByType video/ogg "access plus 1 month"
+ ExpiresByType audio/ogg "access plus 1 month"
+ ExpiresByType video/mp4 "access plus 1 month"
+ ExpiresByType video/webm "access plus 1 month"
+ # HTC files
+ ExpiresByType text/x-component "access plus 1 month"
+ # Webfonts
+ ExpiresByType application/x-font-ttf "access plus 1 month"
+ ExpiresByType font/opentype "access plus 1 month"
+ ExpiresByType application/x-font-woff "access plus 1 month"
+ ExpiresByType image/svg+xml "access plus 1 month"
+ ExpiresByType application/vnd.ms-fontobject "access plus 1 month"
+ # CSS / JS
+ ExpiresByType text/css "access plus 1 year"
+ ExpiresByType application/javascript "access plus 1 year"
+ ExpiresByType application/x-javascript  "access plus 1 year"
+</IfModule>
+#Força o IE a sempre carregar utilizando a última versão disponível
+<IfModule mod_headers.c>
+  Header set X-UA-Compatible "IE=Edge,chrome=1"
+  <FilesMatch "\.(js|css|gif|png|jpeg|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
+    Header unset X-UA-Compatible
+  </FilesMatch>
+</IfModule>

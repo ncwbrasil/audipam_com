@@ -1,0 +1,574 @@
+[12-Jul-2021 11:44:07 America/Sao_Paulo] PHP Warning:  require(../../../../vendor/autoload.php): failed to open stream: No such file or directory in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 5
+[12-Jul-2021 11:44:07 America/Sao_Paulo] PHP Warning:  require(../../../../vendor/autoload.php): failed to open stream: No such file or directory in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 5
+[12-Jul-2021 11:44:07 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '../../../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 5
+[12-Jul-2021 11:44:35 America/Sao_Paulo] PHP Fatal error:  Uncaught InvalidArgumentException: First argument to "Http\Message\MultipartStream\MultipartStreamBuilder::createStream()" must be a string, resource or StreamInterface. in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php:353
+Stack trace:
+#0 /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php(106): Http\Message\MultipartStream\MultipartStreamBuilder->createStream(0)
+#1 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/HttpClient/RequestBuilder.php(68): Http\Message\MultipartStream\MultipartStreamBuilder->addResource('v:numero', 0, Array)
+#2 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/HttpApi.php(154): Mailgun\HttpClient\RequestBuilder->create('POST', '/v3/audipam.com...', Array, Array)
+#3 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/Message.php(60): Mailgun\Api\HttpApi->httpPostRaw('/v3/audipam.com...', Array)
+#4 /home/audipamcom/public_html/proclegis/mail/envia in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php on line 353
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:47:10 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 11:47:50 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 11:47:50 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 11:47:51 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 11:47:51 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 11:47:52 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 11:47:52 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:47:53 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 11:48:08 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 11:48:08 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 11:48:08 America/Sao_Paulo] PHP Fatal error:  Uncaught InvalidArgumentException: First argument to "Http\Message\MultipartStream\MultipartStreamBuilder::createStream()" must be a string, resource or StreamInterface. in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php:353
+Stack trace:
+#0 /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php(106): Http\Message\MultipartStream\MultipartStreamBuilder->createStream(0)
+#1 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/HttpClient/RequestBuilder.php(68): Http\Message\MultipartStream\MultipartStreamBuilder->addResource('v:numero', 0, Array)
+#2 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/HttpApi.php(154): Mailgun\HttpClient\RequestBuilder->create('POST', '/v3/audipam.com...', Array, Array)
+#3 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/Message.php(60): Mailgun\Api\HttpApi->httpPostRaw('/v3/audipam.com...', Array)
+#4 /home/audipamcom/public_html/proclegis/mail/envia in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php on line 353
+[12-Jul-2021 11:48:54 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 11:48:54 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 11:48:55 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 11:48:55 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 11:48:56 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 11:48:56 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 11:48:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 12:02:32 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 12:02:32 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 12:02:33 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 12:02:33 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 12:02:34 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 12:02:34 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:02:35 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:02:36 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 12:11:01 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 12:11:01 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 12:11:02 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 12:11:02 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 12:11:03 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 33
+[12-Jul-2021 12:11:03 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:11:04 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 12:13:09 America/Sao_Paulo] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 177
+[12-Jul-2021 12:13:09 America/Sao_Paulo] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when session is active in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 179
+[12-Jul-2021 12:13:09 America/Sao_Paulo] PHP Warning:  session_name(): Cannot change session name when session is active in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 180
+[12-Jul-2021 12:13:09 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 181
+[12-Jul-2021 12:13:09 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 36
+[12-Jul-2021 12:13:09 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 37
+[12-Jul-2021 12:13:09 America/Sao_Paulo] PHP Fatal error:  Uncaught InvalidArgumentException: First argument to "Http\Message\MultipartStream\MultipartStreamBuilder::createStream()" must be a string, resource or StreamInterface. in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php:353
+Stack trace:
+#0 /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php(106): Http\Message\MultipartStream\MultipartStreamBuilder->createStream(0)
+#1 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/HttpClient/RequestBuilder.php(68): Http\Message\MultipartStream\MultipartStreamBuilder->addResource('v:numero', 0, Array)
+#2 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/HttpApi.php(154): Mailgun\HttpClient\RequestBuilder->create('POST', '/v3/audipam.com...', Array, Array)
+#3 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/Message.php(60): Mailgun\Api\HttpApi->httpPostRaw('/v3/audipam.com...', Array)
+#4 /home/audipamcom/public_html/proclegis/mail/envia in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php on line 353
+[12-Jul-2021 12:14:11 America/Sao_Paulo] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 177
+[12-Jul-2021 12:14:11 America/Sao_Paulo] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when session is active in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 179
+[12-Jul-2021 12:14:11 America/Sao_Paulo] PHP Warning:  session_name(): Cannot change session name when session is active in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 180
+[12-Jul-2021 12:14:11 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 181
+[12-Jul-2021 12:14:12 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 36
+[12-Jul-2021 12:14:12 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 37
+[12-Jul-2021 12:14:12 America/Sao_Paulo] PHP Fatal error:  Uncaught InvalidArgumentException: First argument to "Http\Message\MultipartStream\MultipartStreamBuilder::createStream()" must be a string, resource or StreamInterface. in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php:353
+Stack trace:
+#0 /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php(106): Http\Message\MultipartStream\MultipartStreamBuilder->createStream(12345)
+#1 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/HttpClient/RequestBuilder.php(68): Http\Message\MultipartStream\MultipartStreamBuilder->addResource('v:numero', 12345, Array)
+#2 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/HttpApi.php(154): Mailgun\HttpClient\RequestBuilder->create('POST', '/v3/audipam.com...', Array, Array)
+#3 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/Message.php(60): Mailgun\Api\HttpApi->httpPostRaw('/v3/audipam.com...', Array)
+#4 /home/audipamcom/public_html/proclegis/ma in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php on line 353
+[12-Jul-2021 12:14:32 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 12:14:32 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 35
+[12-Jul-2021 12:14:32 America/Sao_Paulo] PHP Fatal error:  Uncaught InvalidArgumentException: First argument to "Http\Message\MultipartStream\MultipartStreamBuilder::createStream()" must be a string, resource or StreamInterface. in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php:353
+Stack trace:
+#0 /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php(106): Http\Message\MultipartStream\MultipartStreamBuilder->createStream(12345)
+#1 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/HttpClient/RequestBuilder.php(68): Http\Message\MultipartStream\MultipartStreamBuilder->addResource('v:numero', 12345, Array)
+#2 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/HttpApi.php(154): Mailgun\HttpClient\RequestBuilder->create('POST', '/v3/audipam.com...', Array, Array)
+#3 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/Message.php(60): Mailgun\Api\HttpApi->httpPostRaw('/v3/audipam.com...', Array)
+#4 /home/audipamcom/public_html/proclegis/ma in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php on line 353
+[12-Jul-2021 12:14:35 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 34
+[12-Jul-2021 12:14:35 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 35
+[12-Jul-2021 12:14:35 America/Sao_Paulo] PHP Fatal error:  Uncaught InvalidArgumentException: First argument to "Http\Message\MultipartStream\MultipartStreamBuilder::createStream()" must be a string, resource or StreamInterface. in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php:353
+Stack trace:
+#0 /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php(106): Http\Message\MultipartStream\MultipartStreamBuilder->createStream(12345)
+#1 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/HttpClient/RequestBuilder.php(68): Http\Message\MultipartStream\MultipartStreamBuilder->addResource('v:numero', 12345, Array)
+#2 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/HttpApi.php(154): Mailgun\HttpClient\RequestBuilder->create('POST', '/v3/audipam.com...', Array, Array)
+#3 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/Message.php(60): Mailgun\Api\HttpApi->httpPostRaw('/v3/audipam.com...', Array)
+#4 /home/audipamcom/public_html/proclegis/ma in /home/audipamcom/public_html/vendor/php-http/multipart-stream-builder/src/MultipartStreamBuilder.php on line 353
+[12-Jul-2021 12:17:04 America/Sao_Paulo] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 177
+[12-Jul-2021 12:17:04 America/Sao_Paulo] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when session is active in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 179
+[12-Jul-2021 12:17:04 America/Sao_Paulo] PHP Warning:  session_name(): Cannot change session name when session is active in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 180
+[12-Jul-2021 12:17:04 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 181
+[12-Jul-2021 12:17:04 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 36
+[12-Jul-2021 12:17:04 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 37
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 177
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when session is active in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 179
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Warning:  session_name(): Cannot change session name when session is active in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 180
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 181
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 36
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 37
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 177
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when session is active in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 179
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Warning:  session_name(): Cannot change session name when session is active in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 180
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Notice:  session_start(): A session had already been started - ignoring in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 181
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Notice:  Undefined index: cli_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 36
+[12-Jul-2021 12:17:05 America/Sao_Paulo] PHP Notice:  Undefined index: sis_url in /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia.php on line 37
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:17:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:19:07 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:42:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:42:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:43:23 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:43:57 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1414
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1423
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1432
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1441
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1451
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2135
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2207
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2267
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2331
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Notice:  Undefined variable: comissa in /home/audipamcom/public_html/proclegis/mod_includes/modal/despachoEdit.php on line 14
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2391
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2465
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2572
+[12-Jul-2021 12:49:50 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:49:51 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:49:51 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:49:51 America/Sao_Paulo] PHP Warning:  Use of undefined constant paginas - assumed 'paginas' (this will throw an Error in a future version of PHP) in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2668
+[12-Jul-2021 12:49:51 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2747
+[09-Sep-2021 11:10:01 America/Sao_Paulo] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 4
+[09-Sep-2021 11:10:01 America/Sao_Paulo] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 5
+[09-Sep-2021 11:10:01 America/Sao_Paulo] PHP Notice:  Undefined variable: rows in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 7
+[09-Sep-2021 11:10:01 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:19
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(19): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 19
+[09-Sep-2021 11:11:01 America/Sao_Paulo] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 4
+[09-Sep-2021 11:11:01 America/Sao_Paulo] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 5
+[09-Sep-2021 11:11:01 America/Sao_Paulo] PHP Notice:  Undefined variable: rows in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 7
+[09-Sep-2021 11:11:01 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:19
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(19): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 19
+[09-Sep-2021 11:12:01 America/Sao_Paulo] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 4
+[09-Sep-2021 11:12:01 America/Sao_Paulo] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 5
+[09-Sep-2021 11:12:01 America/Sao_Paulo] PHP Notice:  Undefined variable: rows in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 7
+[09-Sep-2021 11:12:01 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:19
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(19): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 19
+[09-Sep-2021 11:12:35 America/Sao_Paulo] PHP Notice:  Undefined variable: rows in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 7
+[09-Sep-2021 11:12:35 America/Sao_Paulo] PHP Notice:  Constant MYSQL_DB_NAME_PL already defined in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 18
+[09-Sep-2021 11:13:02 America/Sao_Paulo] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 4
+[09-Sep-2021 11:13:02 America/Sao_Paulo] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 5
+[09-Sep-2021 11:13:02 America/Sao_Paulo] PHP Notice:  Undefined variable: rows in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 7
+[09-Sep-2021 11:13:02 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:19
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(19): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 19
+[09-Sep-2021 11:14:01 America/Sao_Paulo] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 4
+[09-Sep-2021 11:14:01 America/Sao_Paulo] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 5
+[09-Sep-2021 11:14:01 America/Sao_Paulo] PHP Notice:  Undefined variable: rows in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 10
+[09-Sep-2021 11:14:01 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:20
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(20): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 20
+[09-Sep-2021 11:15:01 America/Sao_Paulo] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 4
+[09-Sep-2021 11:15:01 America/Sao_Paulo] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 5
+[09-Sep-2021 11:15:01 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:21
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(21): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 21
+[09-Sep-2021 11:16:01 America/Sao_Paulo] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 4
+[09-Sep-2021 11:16:01 America/Sao_Paulo] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 5
+[09-Sep-2021 11:16:01 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:21
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(21): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 21
+[09-Sep-2021 11:17:01 America/Sao_Paulo] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 4
+[09-Sep-2021 11:17:01 America/Sao_Paulo] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 5
+[09-Sep-2021 11:17:01 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:23
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(23): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 23
+[09-Sep-2021 14:18:02 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 4
+[09-Sep-2021 14:18:02 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 5
+[09-Sep-2021 14:18:02 UTC] PHP Notice:  Undefined variable: PDO in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 11
+[09-Sep-2021 14:18:02 UTC] PHP Notice:  Undefined variable: PDO in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 12
+[09-Sep-2021 14:18:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 12
+[09-Sep-2021 11:19:01 America/Sao_Paulo] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 4
+[09-Sep-2021 11:19:01 America/Sao_Paulo] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 5
+[09-Sep-2021 11:19:01 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:23
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(23): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 23
+[09-Sep-2021 14:20:01 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 27
+[09-Sep-2021 14:20:01 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 28
+[09-Sep-2021 14:20:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:46
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(46): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 46
+[09-Sep-2021 14:21:01 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 27
+[09-Sep-2021 14:21:02 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 28
+[09-Sep-2021 14:21:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:46
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(46): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 46
+[09-Sep-2021 14:22:01 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 27
+[09-Sep-2021 14:22:01 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 28
+[09-Sep-2021 14:22:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:46
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(46): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 46
+[09-Sep-2021 14:23:01 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 27
+[09-Sep-2021 14:23:01 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 28
+[09-Sep-2021 14:23:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:46
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(46): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 46
+[09-Sep-2021 14:24:01 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 27
+[09-Sep-2021 14:24:01 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 28
+[09-Sep-2021 14:24:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:46
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(46): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 46
+[09-Sep-2021 14:25:01 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 27
+[09-Sep-2021 14:25:01 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 28
+[09-Sep-2021 14:25:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:43
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(43): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 43
+[09-Sep-2021 14:26:02 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 27
+[09-Sep-2021 14:26:02 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 28
+[09-Sep-2021 14:26:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:43
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(43): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 43
+[09-Sep-2021 14:27:01 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 27
+[09-Sep-2021 14:27:01 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 28
+[09-Sep-2021 14:27:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:43
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(43): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 43
+[09-Sep-2021 14:28:01 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 27
+[09-Sep-2021 14:28:01 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 28
+[09-Sep-2021 14:28:01 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 30
+[09-Sep-2021 14:28:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:43
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(43): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 43
+[09-Sep-2021 14:29:01 UTC] PHP Notice:  Undefined index: REQUEST_URI in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 27
+[09-Sep-2021 14:29:01 UTC] PHP Notice:  Undefined offset: -2 in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 28
+[09-Sep-2021 14:29:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'audipamc_mogicomp'@'localhost' to database 'audipamc__cmmc' in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php:43
+Stack trace:
+#0 /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php(43): PDO->__construct('mysql:host=loca...', 'audipamc_mogico...', 'M0507c1106#')
+#1 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/cronUsuarios.php on line 43
+[09-Dec-2021 20:42:08 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 179
+[09-Dec-2021 20:42:08 UTC] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 181
+[09-Dec-2021 20:42:08 UTC] PHP Warning:  session_name(): Cannot change session name when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 182
+[09-Dec-2021 20:42:08 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 183
+[09-Dec-2021 20:42:51 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 179
+[09-Dec-2021 20:42:51 UTC] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 181
+[09-Dec-2021 20:42:51 UTC] PHP Warning:  session_name(): Cannot change session name when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 182
+[09-Dec-2021 20:42:51 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 183
+[09-Dec-2021 20:43:48 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 179
+[09-Dec-2021 20:43:48 UTC] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 181
+[09-Dec-2021 20:43:48 UTC] PHP Warning:  session_name(): Cannot change session name when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 182
+[09-Dec-2021 20:43:48 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 183
+[09-Dec-2021 20:44:42 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 179
+[09-Dec-2021 20:44:42 UTC] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 181
+[09-Dec-2021 20:44:42 UTC] PHP Warning:  session_name(): Cannot change session name when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 182
+[09-Dec-2021 20:44:42 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 183
+[09-Dec-2021 18:01:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Mailgun\Exception\HttpClientException: The parameters passed to the API were invalid. Check your inputs!
+
+to parameter is missing in /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Exception/HttpClientException.php:63
+Stack trace:
+#0 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/HttpApi.php(89): Mailgun\Exception\HttpClientException::badRequest(Object(Nyholm\Psr7\Response))
+#1 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/HttpApi.php(73): Mailgun\Api\HttpApi->handleErrors(Object(Nyholm\Psr7\Response))
+#2 /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Api/Message.php(63): Mailgun\Api\HttpApi->hydrateResponse(Object(Nyholm\Psr7\Response), 'Mailgun\\Model\\M...')
+#3 /home/audipamcom/public_html/proclegis/mail/envia_tramitacao_materia_interna.php(37): Mailgun\Api\Message->send('audipam.com.br', Array)
+#4 /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php(1170): include('/home/audipamco...')
+#5 {main}
+  thrown in /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Exception/HttpClientException.php on line 63
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Notice:  Undefined offset: 1 in /home/audipamcom/public_html/proclegis/admin/header.php on line 100
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Warning:  A non-numeric value encountered in /home/audipamcom/public_html/proclegis/admin/header.php on line 105
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Notice:  Undefined index: fil_tipo in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1617
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Notice:  Undefined index: fil_numero in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1626
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ano in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1635
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Notice:  Undefined index: fil_ementa in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1644
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Notice:  Undefined index: fil_autor in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 1654
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2378
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2450
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2510
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2574
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2634
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2708
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 2817
+[09-Dec-2021 18:03:59 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/proclegis/admin/cadastro_materias.php on line 3056
+[03-Mar-2022 15:09:15 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/audipamcom/public_html/proclegis/admin/docadm_documentos_qrcode.php on line 334
+[03-Mar-2022 15:15:01 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/audipamcom/public_html/proclegis/admin/docadm_documentos_qrcode.php on line 14
+[03-Mar-2022 15:15:02 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/audipamcom/public_html/proclegis/admin/docadm_documentos_qrcode.php on line 363
+[03-Mar-2022 15:27:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/audipamcom/public_html/proclegis/admin/docadm_documentos_qrcode.php on line 549
+[03-Mar-2022 15:27:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/audipamcom/public_html/proclegis/admin/docadm_documentos_qrcode.php on line 549
+[03-Mar-2022 15:27:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/audipamcom/public_html/proclegis/admin/docadm_documentos_qrcode.php on line 549
+[03-Jan-2023 20:28:46 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER) in /home/audipamcom/public_html/proclegis/admin/aux_materias_regime_tramitacao.php on line 101
+[04-Jan-2023 14:50:47 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER) in /home/audipamcom/public_html/proclegis/admin/aux_materias_regime_tramitacao.php on line 101
+[04-Jan-2023 14:51:46 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER) in /home/audipamcom/public_html/proclegis/admin/aux_materias_regime_tramitacao.php on line 101
+[04-Jan-2023 14:51:49 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER) in /home/audipamcom/public_html/proclegis/admin/aux_materias_regime_tramitacao.php on line 101
+[08-Feb-2023 19:54:30 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER) in /home/audipamcom/public_html/proclegis/admin/aux_materias_regime_tramitacao.php on line 101
+[08-Feb-2023 19:54:32 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER) in /home/audipamcom/public_html/proclegis/admin/aux_materias_regime_tramitacao.php on line 101
+[08-Feb-2023 19:54:37 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER) in /home/audipamcom/public_html/proclegis/admin/aux_materias_regime_tramitacao.php on line 101
+[08-Feb-2023 20:38:39 UTC] PHP Parse error:  syntax error, unexpected '2' (T_LNUMBER) in /home/audipamcom/public_html/proclegis/admin/aux_materias_regime_tramitacao.php on line 101
+[07-May-2023 23:13:54 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/audipamcom/public_html/proclegis/admin/index.php on line 1
+[31-May-2023 12:16:45 UTC] PHP Warning:  move_uploaded_file(/uploads/images/39301f499b8982be90148c4e243d8940b930a01a.jpg): failed to open stream: No such file or directory in /home/audipamcom/public_html/proclegis/admin/upload_file.php on line 31
+[31-May-2023 12:16:45 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpY1dtje' to '/uploads/images/39301f499b8982be90148c4e243d8940b930a01a.jpg' in /home/audipamcom/public_html/proclegis/admin/upload_file.php on line 31
+[31-May-2023 12:32:28 UTC] PHP Warning:  move_uploaded_file(https://audipam.com.br/proclegis/uploads/images/2c3dfeb124f99bb3c49986e768e7fe87e772d9a2.jpg): failed to open stream: HTTP wrapper does not support writeable connections in /home/audipamcom/public_html/proclegis/admin/upload_file.php on line 31
+[31-May-2023 12:32:28 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpO0FIka' to 'https://audipam.com.br/proclegis/uploads/images/2c3dfeb124f99bb3c49986e768e7fe87e772d9a2.jpg' in /home/audipamcom/public_html/proclegis/admin/upload_file.php on line 31
+[31-May-2023 12:33:30 UTC] PHP Warning:  move_uploaded_file(https://audipam.com.br/proclegis/uploads/images/63a6114ce1e1f7d8d38628ed41119fac64e7c8df.jpg): failed to open stream: HTTP wrapper does not support writeable connections in /home/audipamcom/public_html/proclegis/admin/upload_file.php on line 31
+[31-May-2023 12:33:30 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpVuq4Vb' to 'https://audipam.com.br/proclegis/uploads/images/63a6114ce1e1f7d8d38628ed41119fac64e7c8df.jpg' in /home/audipamcom/public_html/proclegis/admin/upload_file.php on line 31
+[31-May-2023 12:34:47 UTC] PHP Warning:  move_uploaded_file(https://audipam.com.br/proclegis/uploads/images/622458b326034d845801f5f983407ca9a6b106b6.jpg): failed to open stream: HTTP wrapper does not support writeable connections in /home/audipamcom/public_html/proclegis/admin/upload_file.php on line 31
+[31-May-2023 12:34:47 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php34RfWM' to 'https://audipam.com.br/proclegis/uploads/images/622458b326034d845801f5f983407ca9a6b106b6.jpg' in /home/audipamcom/public_html/proclegis/admin/upload_file.php on line 31
+[31-May-2023 12:35:14 UTC] PHP Warning:  move_uploaded_file(https://audipam.com.br/proclegis/uploads/images/172a37a876610d4b0d10147fa77a2c9fd45c172f.jpg): failed to open stream: HTTP wrapper does not support writeable connections in /home/audipamcom/public_html/proclegis/admin/upload_file.php on line 31
+[31-May-2023 12:35:14 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpOGRnk5' to 'https://audipam.com.br/proclegis/uploads/images/172a37a876610d4b0d10147fa77a2c9fd45c172f.jpg' in /home/audipamcom/public_html/proclegis/admin/upload_file.php on line 31
+[31-May-2023 13:28:07 UTC] PHP Warning:  dir(https://audipam.com.br/proclegis/uploads/images/): failed to open dir: not implemented in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 5
+[31-May-2023 13:28:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on bool in /home/audipamcom/public_html/proclegis/admin/load_file.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 9
+[31-May-2023 13:32:32 UTC] PHP Warning:  dir(https://audipam.com.br/proclegis/uploads/images/): failed to open dir: not implemented in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 5
+[31-May-2023 13:32:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on bool in /home/audipamcom/public_html/proclegis/admin/load_file.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 9
+[31-May-2023 13:32:44 UTC] PHP Warning:  dir(https://audipam.com.br/proclegis/uploads/images/): failed to open dir: not implemented in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 5
+[31-May-2023 13:32:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on bool in /home/audipamcom/public_html/proclegis/admin/load_file.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 9
+[31-May-2023 13:43:51 UTC] PHP Warning:  dir(https://audipam.com.br/proclegis/uploads/images/): failed to open dir: not implemented in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 5
+[31-May-2023 13:43:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on bool in /home/audipamcom/public_html/proclegis/admin/load_file.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 9
+[31-May-2023 13:43:58 UTC] PHP Warning:  dir(https://audipam.com.br/proclegis/uploads/images/): failed to open dir: not implemented in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 5
+[31-May-2023 13:43:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on bool in /home/audipamcom/public_html/proclegis/admin/load_file.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 9
+[31-May-2023 13:44:31 UTC] PHP Warning:  dir(https://audipam.com.br/proclegis/uploads/images/): failed to open dir: not implemented in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 5
+[31-May-2023 13:44:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on bool in /home/audipamcom/public_html/proclegis/admin/load_file.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 9
+[31-May-2023 13:46:13 UTC] PHP Warning:  dir(https://audipam.com.br/proclegis/uploads/images/): failed to open dir: not implemented in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 3
+[31-May-2023 13:46:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function read() on bool in /home/audipamcom/public_html/proclegis/admin/load_file.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/proclegis/admin/load_file.php on line 7
+[27-Sep-2023 12:13:19 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, bool given in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 22
+[31-Oct-2023 12:28:39 UTC] PHP Warning:  hash_equals(): Expected known_string to be a string, bool given in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 22

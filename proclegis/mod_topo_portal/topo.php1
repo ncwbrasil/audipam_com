@@ -1,0 +1,30 @@
+<div class="topo">
+    <div class="faixa">
+        <div id='faixa'>
+            <div class='acess'>
+                <div class='accessBloco hand'><a href='index/<?php echo $cli_url;?>' accesskey='0' title='Página inicial [ALT + 0]'>Página inicial [0]</a></div>
+                <div class='accessBloco hand'><a accesskey='1' title='Contraste [ALT + 1]' onclick="modContrast(1)" >Contraste [1]</a></div>
+                <div class='accessBloco hand'><a accesskey='2' title='Cor original [ALT + 2]' onclick="modContrast(2)">Cor original [2]</a></div>
+                <div class='accessBloco hand'><a accesskey='3' title='Aumentar fonte [ALT + 3]' onClick="fonte('a');">A+ [3]</a></div>
+                <div class='accessBloco hand'><a accesskey='4' title='Diminuir fonte [ALT + 4]' onClick="fonte('d');">A- [4]</a></div>
+                <div class='accessBloco hand'><a accesskey='5' title='Fonte padrão [ALT + 5]' onClick="fonte('n');">Fonte padrão [5]</a></div>                
+            </div>
+        </div>
+    </div>
+    <div id='topo'>
+        <div class='logo'>
+            <a href='index/'><img src='<?php echo $cli_foto;?>' alt="Brasão" class='logo_c'></a>
+            <a href='index/'><img src='<?php echo $cli_foto;?>' alt="Logo" class='logo_w'></a>         
+        </div>   
+        <div class='title'>
+            <b class='bold'><?php echo $cli_nome;?></b>
+            <p class='normal'> Processo Legislativo</p>       
+        </div>       
+    </div>
+    <div class='menu'>
+        <div id='menu'>
+            <?php include("mod_menu_portal/menu_site.php");  ?>   
+    
+        </div>
+    </div>
+</div>

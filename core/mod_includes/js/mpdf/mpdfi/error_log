@@ -1,0 +1,42 @@
+[28-Apr-2021 16:58:43 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[28-Apr-2021 16:58:43 UTC] PHP Fatal error:  Uncaught Error: Class 'pdf_parser' not found in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[28-Apr-2021 16:58:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_context has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_context.php on line 20
+[28-Apr-2021 16:58:44 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_parser.php on line 44
+[12-May-2021 13:12:01 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[12-May-2021 13:12:01 UTC] PHP Fatal error:  Uncaught Error: Class 'pdf_parser' not found in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[12-May-2021 13:12:02 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_context has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_context.php on line 20
+[12-May-2021 13:12:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_parser.php on line 44
+[12-May-2021 20:16:11 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_parser.php on line 44
+[12-May-2021 20:17:05 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_context has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_context.php on line 20
+[12-May-2021 20:17:20 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[12-May-2021 20:17:20 UTC] PHP Fatal error:  Uncaught Error: Class 'pdf_parser' not found in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[01-Jun-2021 22:48:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[01-Jun-2021 22:48:24 UTC] PHP Fatal error:  Uncaught Error: Class 'pdf_parser' not found in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[01-Jun-2021 22:48:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_context has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_context.php on line 20
+[01-Jun-2021 22:48:26 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_parser.php on line 44
+[16-Jun-2021 02:55:32 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[16-Jun-2021 02:55:32 UTC] PHP Fatal error:  Uncaught Error: Class 'pdf_parser' not found in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[16-Jun-2021 02:55:33 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_context has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_context.php on line 20
+[16-Jun-2021 02:55:34 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_parser.php on line 44
+[29-Jun-2021 22:31:23 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; fpdi_pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[29-Jun-2021 22:31:23 UTC] PHP Fatal error:  Uncaught Error: Class 'pdf_parser' not found in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/fpdi_pdf_parser.php on line 21
+[29-Jun-2021 22:31:24 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_context has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_context.php on line 20
+[29-Jun-2021 22:31:25 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; pdf_parser has a deprecated constructor in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdfi/pdf_parser.php on line 44

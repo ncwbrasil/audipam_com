@@ -1,0 +1,1 @@
+[13-May-2023 05:42:32 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/audipamcom/public_html/vendor/php-http/httplug/src/Exception/HttpException.php on line 4

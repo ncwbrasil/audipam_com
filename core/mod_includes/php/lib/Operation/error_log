@@ -1,0 +1,4 @@
+[12-May-2021 20:31:35 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/php/lib/Operation/Resize.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/php/lib/Operation/Resize.php on line 30

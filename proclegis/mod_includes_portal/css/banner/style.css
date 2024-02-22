@@ -1,0 +1,79 @@
+
+.g_slide {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.g_slide img {
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.g_slide .item {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.switch_main { position: relative; }
+
+.g_slide .switch_nav {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  z-index: 11;
+  text-align: center;
+}
+
+.g_slide .switch_nav_item {
+  display: none;
+}
+
+.g_slide .prev,
+.g_slide .next {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  width: 18px;
+  height: 30px;
+  overflow: hidden;
+  background: url(slide.png) no-repeat;
+  transition: margin-left .3s ease, margin-right .3s ease;
+}
+
+.g_slide .prev {
+  left: -18px;
+  _left: 10px;
+}
+
+.g_slide .next {
+  right: -18px;
+  _right: 10px;
+  background-position: -19px 0;
+}
+
+.g_slide .prev:hover { background-position: 0 -70px; }
+
+.g_slide .next:hover { background-position: -19px -70px; }
+
+.g_slide:hover .prev { margin-left: 50px; }
+
+.g_slide:hover .next { margin-right: 50px; }
+
+.switch_main { position: relative; }

@@ -1,0 +1,1133 @@
+@import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700');
+
+/* PRINCIPAL  = #00B1C0 */
+/* SECUNDARIO = #FCB813 */
+
+ 
+/* #region GERAL */
+	div::-webkit-scrollbar {
+		width: 8px;
+	}
+
+
+	div::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+		border-radius: 10px;
+	}
+
+	div::-webkit-scrollbar-track-piece {
+		background: #454547
+	}
+
+	div::-webkit-scrollbar-thumb {
+		background: #EEE
+	}
+
+	​ html {
+		height: 100%;
+	}
+
+	body {
+		height: 100%;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 400;
+		font-size: 13px;
+		color: #666;
+		/*background: url(../../../core/imagens/bg.jpg) repeat;*/
+
+		margin: 0;
+	}
+
+	.wrapper {
+		width: 1200px;
+		display: table;
+		text-align: justify;
+		line-height: 30px;
+		margin: 0px auto;
+		padding: 1% 0;
+	  }
+	  
+	  @media screen and (max-width:1250px){
+		.wrapper {
+		  width: 90%;
+		}
+	  }
+
+	a {
+		text-decoration: none;
+		color: #454547;
+	}
+
+	a:visited {
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: #666666;
+	}
+
+	.bold {
+		font-weight: bold;
+	}
+
+	.title {
+		text-transform: uppercase;
+		font-family: 'PT Sans', sans-serif;	
+		font-size:17px;	
+		font-weight: bold;
+		border-bottom:1px solid #DDD;
+	}
+	.normal {
+		text-transform:none;
+		font-family: 'Quicksand', sans-serif;	
+		font-size:17px;	
+		font-weight: normal;
+		
+	}
+	div#erro {
+		text-align: center;
+		margin: 0 auto;
+		font-size: 11px;
+		color: #F90F00;
+		padding: 5px;
+	}
+
+	.perfil {
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+	}
+
+	table {
+		font-size: 13px;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 400;
+		line-height: 22px;
+	}
+
+	tbody {
+		width: 100%;
+	}
+
+	.titulo {
+		width: 100%;
+		font-weight: bold;
+		margin: 0 auto;
+		font-size: 14px;
+		color: #454547;
+		text-align: left;
+		border-bottom: 1px solid #DDD;
+		padding: 0 0 5px 0;
+		margin: 0 0 15px 0;
+	}
+
+	.titulo_tabela {
+		font-size: 13px;
+		font-weight: 600;
+		border: 0;
+		color: #666;
+		background: #EEE;
+	}
+
+	
+	.bordatabela {
+		border: 1px solid #DADADA;
+		-moz-border-radius: 2px 2px 0px 0px;
+		-webkit-border-radius: 2px 2px 0px 0px;
+		border-radius: 2px 2px 0px 0px;
+	}
+
+	.borda_aba {
+		border-bottom: 1px solid #DADADA;
+		border-left: 1px solid #DADADA;
+		border-right: 1px solid #DADADA;
+		-moz-border-radius: 0px 0px 4px 4px;
+		-webkit-border-radius: 0px 0px 4px 4px;
+		border-radius: 0px 0px 4px 4px;
+	}
+
+	.linhapar {
+		background: #FAFAFA;
+	}
+
+	.linhaimpar {
+		background: #FFFFFF;
+	}
+
+	#botoes {
+		width: 100%;
+		text-align: left;
+		float: left;
+		padding: 0 0 18px 0px;
+	}
+
+	
+	.hand {
+		cursor: pointer;
+		_cursor: hand;
+	}
+
+	.mensagem {
+		display: none;
+		padding: 10px;
+		margin: 0 0 5px 0;
+		height: auto;
+	}
+
+	.ok {
+		background: #EBF3E6;
+		color: #8FBB6C;
+		border: 1px solid #DFEBD5;
+	}
+
+	.x {
+		background: #FEF1F1;
+		color: #F56B6B;
+		border: 1px solid #FDE2E2;
+	}
+
+	
+
+
+	#mask {
+		display: none;
+		background: #000;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 130;
+		width: 100%;
+		height: 100%;
+		opacity: 0.7;
+	}
+
+	.janela {
+		width: 50%;
+		height: auto;
+		color: #666;
+		text-align: center;
+		overflow: hidden;
+		background-color: #FFF;
+		padding: 1%;
+		border: none;
+		position: fixed;
+		text-align: center;
+		top: 50%;
+		left: 50%;
+		right: 50%;
+		z-index: 140;
+	}
+
+	.janelaAcao {
+		width: 26%;
+		overflow: hidden;
+		background-color: #EEE;
+		padding: 50px 50px;
+		border: 2px solid #ddd;
+		position: fixed;
+		text-align: center;
+		top: 50%;
+		left: 50%;
+		right: 50%;
+		z-index: 999999999999999999999999;
+		box-shadow: 0px 0px 20px #FFF;
+		/* CSS3 */
+		-moz-box-shadow: 0px 0px 20px #FFF;
+		/* Firefox */
+		-webkit-box-shadow: 0px 0px 20px #FFF;
+		/* Safari, Chrome */
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		/* Firefox */
+		-webkit-border-radius: 3px;
+		/* Safari, Chrome */
+	}
+
+	label.lab { 
+		width:15%; 
+		float:left;
+		font-weight: bold;
+		
+	}
+	div.info { 
+		width:85%; float:left;
+	}
+	
+	@media screen and ( max-width:768px) {
+		.janela {
+			width: 85%;
+			margin: 0 auto;
+		}
+		table a {
+			font-size: 10px;
+		}
+		table .detalhe {
+			font-size: 9px;
+		}
+		/* table:not(.mask){display:block !important;white-space:nowrap !important; width:auto !important; overflow:scroll; } */
+		table.mask {
+			width: 100%;
+			overflow-x: auto;
+		}
+		#botoes {
+			width: 100%;
+		}
+	}
+/* #endregion */
+
+/* #region TOPO*/
+	.topo {
+		width: 100%;
+		display: table;
+	}
+	
+	.topo .faixa {
+		width: 100%;
+		padding: 10px 0;
+		background: #f4f4f4;
+		display: table;
+		color: #585757;
+		position: fixed;
+		z-index: 999999;
+		font-size:13px;
+	}
+	
+	.topo .faixa #faixa {
+		width: 1200px;
+		float: none;
+			
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	@media screen and (max-width:1250px){
+		.topo .faixa #faixa {
+		width: 90%;
+		}
+	}
+	
+	.topo .faixa #faixa i {
+		color: #585757;
+		margin-right: 10px;
+		cursor:pointer; 
+		
+	}
+	
+	.topo .faixa #faixa .acess{
+		width: 80%;
+		float: none;  
+		display: table;
+		text-align: right;
+		
+	}
+	
+	.topo #topo {
+		width: 1200px;
+		margin: 0 auto;
+		display: table;
+		margin: 60px auto 30px auto;
+	}
+	
+	.topo .logo {
+		width: 12%;
+		float: left;
+	}
+
+	.topo .title {
+		width: 78%;
+		float: left;
+		text-transform: uppercase;
+		font-family: 'PT Sans', sans-serif;	
+		line-height:08px;
+		margin:25px 0;	
+		font-size:17px;	
+	}
+	
+	.topo .logo img {
+		width: 80%;
+		max-width: 150px;
+	}
+	
+	.topo .logo_c{
+		display: table;
+	}
+	.topo .logo_w{
+		display: none;
+	}
+	
+	
+
+	.topo .menu {
+		width: 100%;
+		margin-top: 5px;
+		background: #f4f4f4;		
+	}
+	.topo .menu #menu {
+		width: 1200px;
+		margin: 0 auto;
+	}
+	
+	.naveg {
+		width:1180px;
+		margin:0 auto;
+		text-align:left;
+		padding:10px;
+		background:#FAFAFA;
+	}
+	@media screen and (max-width: 1250px) {
+		.topo .menu #menu {
+		width: 100%;
+
+		}
+		.topo .logo {
+		width: 15%;
+		}
+		.topo .logo img {
+		margin: 0 auto;
+		}
+		.topo #topo {
+		width: 100%;
+		}
+
+		.naveg{
+			width: 86%;
+			padding: 10px 2%;
+		}
+	}
+
+	@media screen and (max-width: 550px) {
+		.topo .logo {
+			width: 100%;
+			}
+
+			.topo .title {
+				width: 100%;
+				float: none;
+				display:table;
+				margin:0 auto;	
+				text-align: center;
+				padding-top:20px;
+				
+			}
+			
+	}
+	.banner-top {
+		width: 100%;
+		padding: 80px 0;
+		background: url('../imagens/site/banner-top.png') center center;
+		background-attachment: fixed;
+		background-size: cover;
+		color: #fff;
+	} 
+/* #endregion */
+/* #region INPUTS */
+	
+	
+	
+	select {
+		font: 13px "Quicksand";
+		border: 1px solid #DDD;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		background: #FFF;
+		padding: 10px 2% 10px 1%;
+		color: #333;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		outline: none;
+		background: url(../../../core/imagens/seta.png) no-repeat right #FFF;
+		
+	}
+
+	input, textarea {
+		font: 13px "Quicksand";
+		border: 1px solid #DDD;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		background: #FFF;
+		padding: 10px 1%;
+		color: #333;
+	}
+
+	input, select, textarea:focus {
+		outline: none;
+	}
+
+	input[type=submit] {
+		background: #454547;
+		border: none;
+		padding: 8px 15px;
+		font-family: "Quicksand";
+		font-size: 14px;
+		color: #FFF;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	input[type=button] {
+		background: #454547;
+		border: none;
+		padding: 8px 15px;
+		font-family: "Quicksand";
+		font-size: 14px;
+		color: #FFF;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	input[type=button]:hover, input[type=submit]:hover {
+		background: #FCB813;
+		border: none;
+		padding: 8px 15px;
+		font-family: "Quicksand";
+		font-size: 14px;
+		color: #FFF;
+		cursor: pointer;
+		_cursor: hand;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	input[type=text] {
+		outline: none;
+	}
+
+	input:disabled, textarea:disabled, select:disabled {
+		color: #BBB;
+	}
+
+	input:disabled::-webkit-input-placeholder, textarea:disabled::-webkit-input-placeholder {
+		color: #DADADA;
+	}
+
+	input:disabled::-moz-input-placeholder, textarea:disabled::-moz-input-placeholder {
+		color: #DADADA;
+	}
+
+	input:disabled::-ms-input-placeholder, textarea:disabled::-ms-input-placeholder {
+		color: #DADADA;
+	}
+
+	input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+		color: #AAA;
+	}
+
+	input::-moz-input-placeholder, textarea::-moz-input-placeholder {
+		color: #AAA;
+	}
+
+	input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+		color: #AAA;
+	}
+
+	
+
+	@media screen and (max-width: 768px) {
+		input.novo {
+			width: 100%;
+		}
+		label:not(.itens) {
+			width: 96%;
+			padding: 0 4%;
+			text-align: left;
+		}
+		input:not([type=button]):not([type=submit]):not([type=radio]):not([type=checkbox]):not([name^='fil']), textarea {
+			width: 92%;
+			margin: 0 4%;
+		}
+		input[name^='fil'] {
+			width: 25%;
+			margin: 0 0.5%;
+		}
+		label.exib {
+			width: 96%;
+			padding: 0 4%;
+		}
+		div.info {
+			width: 96%;
+			padding: 0 4%;
+		}
+		select:not([name^='fil']) {
+			width: 92.5%;
+			margin: 0 4%;
+		}
+		select[name^='fil'] {
+			width: 25%;
+			margin: 0 0.5%;
+		}
+		div#p_scents {
+			width: 100%;
+		}
+	}
+/* #endregion */
+
+/*#region ACESSIBILIDADE*/
+	div.accessBloco { float:left; margin:0 10px;}
+
+	body#contrastePreto{
+		background: #000; 
+		color: #fff; 
+	}
+	body#contrastePreto a, 
+	body#contrastePreto .laranja, 
+	body#contrastePreto .verde, 
+	body#contrastePreto .cinza,
+	body#contrastePreto .conteudo a,
+	body#contrastePreto .veja a {
+		color: #fff;
+	}
+	
+	body#contrastePreto .home_eventos,
+	body#contrastePreto .home .faixa #bl1,
+	body#contrastePreto .home .faixa #bl2,
+	body#contrastePreto .home .faixa #bl3, 
+	body#contrastePreto .home .faixa #bl4, 
+	body#contrastePreto .topo .faixa,
+	body#contrastePreto nav ul li ul li, 
+	body#contrastePreto .ultimas_noticias, 
+	body#contrastePreto .conteudo .bloco_portal, 
+	body#contrastePreto .veja, 
+	body#contrastePreto .bloco_bnd {
+		background: #333;
+		color: #fff; 
+	}
+	
+	body#contrastePreto .topo .faixa #faixa i {
+		color: #fff;
+	}
+	
+	body#contrastePreto .logo_c {
+		display: none
+	}
+	
+	body#contrastePreto .logo_w {
+		display: table
+	}
+	
+	body#contrastePreto .rodape {
+		background: #333
+	}
+	
+	body#contrastePreto .noticias_home .destaque .not .ttl_not {
+		background: #333
+	}
+	
+	body#contrastePreto table tr td i {
+		color: #fff;
+	}
+	
+	body#contrastePreto table tr td  #acesso{
+		color: #fff;
+	}
+	
+	body#contrastePreto .linhaimpar{
+		background: #242424;
+	}
+	
+	body#contrastePreto .linhapar{
+		background: #333;
+	}
+	
+
+  
+  /* #endregion*/
+  
+  
+/* #region RODAPE*/
+.rodape {
+	width: 100%;
+	margin: 0 auto;
+	display: table;
+	background: #333;
+	color: #fff;
+	padding-top: 50px;
+  }
+  
+  .rodape #rodape {
+	width: 1200px;
+	margin: 0 auto;
+	display: table;
+  }
+  
+  @media screen and (max-width:1250px){
+	.rodape #rodape {
+	  width: 90%;
+	}
+  }
+  
+  .rodape #rodape .bloco1{
+	float: left;
+	width: 33%;
+  }
+  
+  .rodape #rodape .bloco1 img{
+	width: 40%;
+	max-width: 240px;
+	display: table;
+	margin: 0 auto;
+	float: none;
+	margin-top: 50px
+  }
+  
+  .rodape #rodape .bloco2{
+	float: left;
+	width: 33%;
+	text-align: center;
+  }
+  
+  .rodape #rodape .bloco2 .titulo{
+	text-align: center;
+  }
+  
+  .rodape #rodape .bloco3 {
+   width: 27%;
+   float: right;
+   margin-top: 35px;
+  }
+  
+  @media screen and (max-width:1000px){
+	.rodape #rodape .bloco1{
+	  width: 100%;
+  
+	}
+	.rodape #rodape .bloco2{
+	  width: 100%;
+	  text-align: center;
+	}
+	.rodape #rodape .bloco2 .titulo{
+	  text-align: center;
+	}
+	.rodape #rodape .bloco3 {
+	  width: 100%;
+	  margin-top: 30px;
+	 }
+	 .rodape #rodape .bloco1 img{
+		margin: 0 auto;
+		float: none; 
+		display: table;
+	 }
+	
+  }
+  
+  .rodape #copy {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 100%;
+  }
+  
+  
+  @media screen and (max-width:360px){
+	.rodape #rodape .bloco2{
+	  font-size: 14px;
+	}
+  }
+  
+  /* #endregion*/
+
+/* #region HOME */
+	
+	#home input, #home  select, #home .blocos input[type=submit]
+	{
+		width: 23.3%;
+		margin:0.7%;
+	}
+	
+	#home .pesquisa-materias 
+	{
+		background: #FAFAFA;
+		border: 1px solid #DDD;
+		padding:1% 2%;
+		margin-bottom:30px;
+		text-align:left;
+	}
+
+	#home .vereadores 
+	{
+		background: #FAFAFA;
+		border: 1px solid #DDD;
+		padding:1% 2%;
+		margin-bottom:30px;
+		text-align:center;
+		display:table;
+	}
+	#home .vereadores .blocos
+	{
+		display:table;
+		float:left;
+		width:15%; 
+		padding:0 2%;
+		text-align: center;
+		line-height: 15px;
+		font-size:13px;
+		height:140px;
+		
+		
+	}
+
+	#home .vereadores .blocos .vereadores-foto
+	{
+		float:none;
+		margin: 0 auto;
+	}	
+	#home .sessoes 
+	{
+		background: #FAFAFA;
+		border: 1px solid #DDD;
+		padding:1% 2%;
+		margin-bottom:30px;
+		text-align:left;
+		line-height: 22px;
+		font-size: 13px;
+	}
+	#home .sessoes .blocos
+	{
+		padding:1% 2%;
+		width: 96%;
+		background: #FFF;
+		border-bottom: 1px solid #EEE;
+		
+	}
+/*#endregion*/
+
+/* #region VERADORES */
+
+#vereadores .bloco 
+{
+	background: #FAFAFA;
+	border: 1px solid #DDD;
+	padding:1% 2%;
+	margin-bottom:30px;
+	text-align:left;
+	display:table;
+	width:96%;
+}
+#vereadores .bloco  input, #vereadores .bloco  select, #vereadores .bloco input[type=submit]
+{
+	width: 23.3%;
+	margin:0.7%;
+}
+
+#vereadores .bloco .blocos
+{
+	display:table;
+	float:left;
+	width:45%; 
+	padding:2%;
+	
+}
+#vereadores .bloco .blocos:hover
+{
+	background:#EEE;
+	
+}
+#vereadores .bloco .blocos .vereadores-foto
+{
+	float:left;
+	width:18%;
+	margin-right: 2%
+}
+#vereadores .bloco .blocos .vereadores-nome
+{
+	float:left;
+	width:80%;
+	line-height: 22px;
+	padding-top:3%;
+}
+
+/*#endregion*/
+
+/* #region MESA DIRETORA */
+
+#mesa-diretora .bloco 
+{
+	background: #FAFAFA;
+	border: 1px solid #DDD;
+	padding:1% 2%;
+	margin-bottom:30px;
+	text-align:left;
+	display:table;
+	width:96%;
+}
+#mesa-diretora .bloco  input, #mesa-diretora .bloco  select, #mesa-diretora .bloco input[type=submit]
+{
+	width: 23.3%;
+	margin:0.7%;
+}
+
+#mesa-diretora .bloco .blocos
+{
+	display:table;
+	float:left;
+	width:45%; 
+	padding:2%;
+	
+}
+#mesa-diretora .bloco .blocos:hover
+{
+	background:#EEE;
+	
+}
+#mesa-diretora .bloco .blocos .vereadores-foto
+{
+	float:left;
+	width:18%;
+	margin-right: 2%
+}
+#mesa-diretora .bloco .blocos .vereadores-nome
+{
+	float:left;
+	width:80%;
+	line-height: 22px;
+	padding-top:3%;
+}
+
+/*#endregion*/
+
+/* #region COMISSOES */
+
+#comissoes .bloco 
+{
+	background: #FAFAFA;
+	border: 1px solid #DDD;
+	padding:1% 2%;
+	margin-bottom:30px;
+	text-align:left;
+	display:table;
+	width:96%;
+	line-height: 22px;
+}
+#comissoes .bloco  input, #comissoes .bloco  select, #comissoes .bloco input[type=submit]
+{
+	width: 23.3%;
+	margin:0.7%;
+}
+
+#comissoes .bloco .blocos
+{
+	padding:1% 2%;
+		width: 96%;
+		background: #FFF;
+		border-bottom: 1px solid #EEE;
+		font-size: 13px;
+	
+}
+#comissoes .bloco .blocos:hover
+{
+	background:#EEE;
+	
+}
+
+
+/*#endregion*/
+
+
+/* #region COMISSAO */
+
+#comissao #composicao .bloco 
+{
+	text-align:left;
+	display:table;
+	width:100%;
+	line-height: 22px;
+}
+#comissao #composicao  .bloco  input, #comissao #composicao  .bloco  select, #comissao #composicao  .bloco input[type=submit]
+{
+	width: 23.3%;
+	margin:0.7%;
+}
+
+#comissao #composicao  .bloco .blocos
+{
+	display:table;
+	float:left;
+	width:45%; 
+	padding:2%;
+	
+	
+}
+#comissao #composicao  .bloco .blocos:hover
+{
+	background:#EEE;
+	
+}
+
+#comissao #composicao  .bloco .blocos .vereadores-foto
+{
+	float:left;
+	width:18%;
+	margin-right: 2%
+}
+#comissao #composicao  .bloco .blocos .vereadores-nome
+{
+	float:left;
+	width:80%;
+	line-height: 22px;
+	padding-top:3%;
+}
+
+
+/*#endregion*/
+
+
+/* #region SESSOES */
+
+	#sessoes .bloco 
+	{
+		background: #FAFAFA;
+		border: 1px solid #DDD;
+		padding:1% 2%;
+		margin-bottom:30px;
+		text-align:left;
+		display:table;
+		width:96%;
+		line-height: 22px;
+	}
+	#sessoes .bloco  input, #sessoes .bloco  select, #sessoes .bloco input[type=submit]
+	{
+		width: 23.3%;
+		margin:0.7%;
+	}
+
+	#sessoes .bloco .blocos
+	{
+		padding:1% 2%;
+			width: 96%;
+			background: #FFF;
+			border-bottom: 1px solid #EEE;
+			font-size: 13px;
+		
+	}
+	#sessoes .bloco .blocos:hover
+	{
+		background:#EEE;
+		
+	}
+
+/*#endregion*/
+
+
+
+/* #region MATERIAS LEGISLATIVAS */
+
+	#materias .bloco 
+	{
+		background: #FAFAFA;
+		border: 1px solid #DDD;
+		padding:1% 2%;
+		margin-bottom:30px;
+		text-align:left;
+		display:table;
+		width:100%;
+		line-height: 22px;
+	}
+	#materias .bloco  input, #materias .bloco  select, #materias .bloco input[type=submit]
+	{
+		width: 23.3%;
+		margin:0.7%;
+	}
+
+	#materias .bloco .blocos
+	{
+		padding:1% 2%;
+			width: 96%;
+			background: #FFF;
+			border-bottom: 1px solid #EEE;
+			font-size: 13px;
+		
+	}
+	#materias .bloco .blocos:hover
+	{
+		background:#EEE;
+		
+	}
+	#materias .bloco .linha {
+		width: 100%;
+		padding-bottom: 3px;
+		border-bottom: 1px solid #ccc;
+	}
+
+/*#endregion*/
+
+
+/*#region CSS JORGE - MATÉRIAS LEGISLATIVAS*/
+#materias .acompanhar {
+	margin: 50px auto;
+	width: 95%;
+	padding: 2%;
+	display: table;
+	background: #f1f1f1;
+
+}
+
+#materias #email {
+	width: 85%;
+	float: left;
+}
+
+#materias #bt_enviar {
+	float: right;
+}
+
+/*#endregion*/
+
+/*#region CSS JORGE - SESSÕES PLENÁRIAS*/
+#sessoes .modulos {
+	width: 20%;
+	margin: 1%;
+	padding: 1%;
+	display: table;
+	background: #f1f1f1;
+	text-align: center;
+	float: left;
+	height:30px;
+	color: #242424;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#sessoes select#modulo{
+	width: 100%;
+	display: table;
+	margin-bottom: 30px;
+}
+
+
+#sessoes .bloco1 {
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+/*#endregion*/
+
+
+.g_botao {
+	background: #09C;
+	border: 1px solid #069;
+	padding: 6px 10px;
+	width: auto;
+	height: 35px;
+	color: #FFF;
+	font-size: 15px;
+	margin: 0 3px;
+	cursor: pointer;
+	_cursor: hand;
+	border-radius: 3px;
+	float: left;
+}
+
+
+

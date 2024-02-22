@@ -1,0 +1,55 @@
+[08-Jun-2022 11:46:48 UTC] PHP Warning:  ini_set(): Headers already sent. You cannot change the session module's ini settings at this time in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 179
+[08-Jun-2022 11:46:48 UTC] PHP Warning:  session_set_cookie_params(): Cannot change session cookie parameters when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 181
+[08-Jun-2022 11:46:48 UTC] PHP Warning:  session_name(): Cannot change session name when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 182
+[08-Jun-2022 11:46:48 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/audipamcom/public_html/core/mod_includes/php/funcoes.php on line 183
+[08-Jun-2022 11:47:32 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/audipamcom/public_html/webmaster/dashboard.php on line 4
+[08-Jun-2022 11:47:46 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/audipamcom/public_html/webmaster/dashboard.php on line 4
+[08-Jun-2022 09:14:48 America/Sao_Paulo] PHP Notice:  Undefined index: fil_nome in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 431
+[08-Jun-2022 09:14:48 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 448
+[08-Jun-2022 09:14:48 America/Sao_Paulo] PHP Notice:  Undefined variable: variavel in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[08-Jun-2022 09:14:48 America/Sao_Paulo] PHP Notice:  Undefined variable: paginacao in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[08-Jun-2022 12:19:19 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 124
+[08-Jun-2022 12:19:40 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 124
+[08-Jun-2022 09:19:56 America/Sao_Paulo] PHP Notice:  Array to string conversion in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 124
+[08-Jun-2022 09:19:56 America/Sao_Paulo] PHP Notice:  Undefined index: fil_nome in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 436
+[08-Jun-2022 09:19:56 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 453
+[08-Jun-2022 09:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: variavel in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[08-Jun-2022 09:19:56 America/Sao_Paulo] PHP Notice:  Undefined variable: paginacao in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[08-Jun-2022 09:20:25 America/Sao_Paulo] PHP Notice:  Undefined index: fil_nome in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 436
+[08-Jun-2022 09:20:25 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 453
+[08-Jun-2022 09:20:25 America/Sao_Paulo] PHP Notice:  Undefined variable: variavel in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[08-Jun-2022 09:20:25 America/Sao_Paulo] PHP Notice:  Undefined variable: paginacao in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[08-Jun-2022 09:32:02 America/Sao_Paulo] PHP Notice:  ob_flush(): failed to flush buffer. No buffer to flush in /home/audipamcom/public_html/webmaster/copydb.php on line 7
+[08-Jun-2022 09:32:08 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1224704 bytes) in /home/audipamcom/public_html/webmaster/copydb.php on line 109
+[08-Jun-2022 09:40:13 America/Sao_Paulo] PHP Notice:  ob_flush(): failed to flush buffer. No buffer to flush in /home/audipamcom/public_html/webmaster/copydb.php on line 7
+[08-Jun-2022 09:40:19 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1224704 bytes) in /home/audipamcom/public_html/webmaster/copydb.php on line 109
+[08-Jun-2022 09:41:43 America/Sao_Paulo] PHP Notice:  ob_flush(): failed to flush buffer. No buffer to flush in /home/audipamcom/public_html/webmaster/copydb.php on line 7
+[08-Jun-2022 09:41:48 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 1224704 bytes) in /home/audipamcom/public_html/webmaster/copydb.php on line 109
+[08-Jun-2022 09:42:08 America/Sao_Paulo] PHP Notice:  ob_flush(): failed to flush buffer. No buffer to flush in /home/audipamcom/public_html/webmaster/copydb.php on line 7
+[08-Jun-2022 09:42:13 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 147456 bytes) in /home/audipamcom/public_html/webmaster/copydb.php on line 110
+[08-Jun-2022 09:42:49 America/Sao_Paulo] PHP Notice:  ob_flush(): failed to flush buffer. No buffer to flush in /home/audipamcom/public_html/webmaster/copydb.php on line 7
+[08-Jun-2022 09:42:55 America/Sao_Paulo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 147456 bytes) in /home/audipamcom/public_html/webmaster/copydb.php on line 110
+[08-Jun-2022 10:49:04 America/Sao_Paulo] PHP Notice:  Undefined index: fil_nome in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 436
+[08-Jun-2022 10:49:04 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 453
+[08-Jun-2022 10:49:04 America/Sao_Paulo] PHP Notice:  Undefined variable: variavel in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[08-Jun-2022 10:49:04 America/Sao_Paulo] PHP Notice:  Undefined variable: paginacao in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[19-Dec-2022 11:24:00 America/Sao_Paulo] PHP Notice:  Undefined index: fil_nome in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 436
+[19-Dec-2022 11:24:00 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 453
+[19-Dec-2022 11:24:00 America/Sao_Paulo] PHP Notice:  Undefined variable: variavel in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[19-Dec-2022 11:24:00 America/Sao_Paulo] PHP Notice:  Undefined variable: paginacao in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[29-Jun-2023 15:05:27 America/Sao_Paulo] PHP Notice:  Undefined index: fil_nome in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 438
+[29-Jun-2023 15:05:27 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 455
+[29-Jun-2023 15:05:27 America/Sao_Paulo] PHP Notice:  Undefined variable: variavel in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[29-Jun-2023 15:05:27 America/Sao_Paulo] PHP Notice:  Undefined variable: paginacao in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[29-Jun-2023 15:09:50 America/Sao_Paulo] PHP Notice:  Undefined index: fil_nome in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 438
+[29-Jun-2023 15:09:50 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 455
+[29-Jun-2023 15:09:50 America/Sao_Paulo] PHP Notice:  Undefined variable: variavel in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[29-Jun-2023 15:09:50 America/Sao_Paulo] PHP Notice:  Undefined variable: paginacao in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[29-Jun-2023 15:12:07 America/Sao_Paulo] PHP Notice:  Undefined index: fil_nome in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 438
+[29-Jun-2023 15:12:07 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 455
+[29-Jun-2023 15:12:07 America/Sao_Paulo] PHP Notice:  Undefined variable: variavel in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[29-Jun-2023 15:12:07 America/Sao_Paulo] PHP Notice:  Undefined variable: paginacao in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[29-Jun-2023 15:15:06 America/Sao_Paulo] PHP Notice:  Undefined index: fil_nome in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 438
+[29-Jun-2023 15:15:06 America/Sao_Paulo] PHP Warning:  PDOStatement::bindParam(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/audipamcom/public_html/webmaster/cadastro_clientes.php on line 455
+[29-Jun-2023 15:15:06 America/Sao_Paulo] PHP Notice:  Undefined variable: variavel in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43
+[29-Jun-2023 15:15:06 America/Sao_Paulo] PHP Notice:  Undefined variable: paginacao in /home/audipamcom/public_html/core/mod_includes/php/paginacao.php on line 43

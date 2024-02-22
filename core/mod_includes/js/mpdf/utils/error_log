@@ -1,0 +1,1 @@
+[12-May-2021 20:31:08 UTC] PHP Fatal error:  Switch statements may only contain one default clause in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/mpdf/mpdf.php on line 1417

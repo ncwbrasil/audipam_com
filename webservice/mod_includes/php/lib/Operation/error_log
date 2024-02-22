@@ -1,0 +1,32 @@
+[01-Apr-2021 00:41:45 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php on line 30
+[14-Apr-2021 10:07:38 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php on line 30
+[19-Apr-2021 22:56:47 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php on line 30
+[28-Apr-2021 17:02:59 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php on line 30
+[12-May-2021 13:16:19 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php on line 30
+[01-Jun-2021 22:52:36 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php on line 30
+[16-Jun-2021 02:59:49 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php on line 30
+[29-Jun-2021 22:35:37 UTC] PHP Fatal error:  Uncaught Error: Class 'WideImage_Exception' not found in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/webservice/mod_includes/php/lib/Operation/Resize.php on line 30

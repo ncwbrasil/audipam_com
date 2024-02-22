@@ -1,0 +1,10 @@
+[28-Apr-2021 16:57:21 UTC] PHP Warning:  arsort() expects parameter 1 to be array, null given in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/graficos/charts.php on line 440
+[28-Apr-2021 16:57:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/graficos/charts.php on line 441
+[12-May-2021 13:10:40 UTC] PHP Warning:  arsort() expects parameter 1 to be array, null given in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/graficos/charts.php on line 440
+[12-May-2021 13:10:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/graficos/charts.php on line 441
+[01-Jun-2021 22:47:04 UTC] PHP Warning:  arsort() expects parameter 1 to be array, null given in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/graficos/charts.php on line 440
+[01-Jun-2021 22:47:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/graficos/charts.php on line 441
+[16-Jun-2021 02:54:09 UTC] PHP Warning:  arsort() expects parameter 1 to be array, null given in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/graficos/charts.php on line 440
+[16-Jun-2021 02:54:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/graficos/charts.php on line 441
+[29-Jun-2021 22:30:00 UTC] PHP Warning:  arsort() expects parameter 1 to be array, null given in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/graficos/charts.php on line 440
+[29-Jun-2021 22:30:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/audipamcom/public_html/audipam_sistemas/core/mod_includes/js/graficos/charts.php on line 441

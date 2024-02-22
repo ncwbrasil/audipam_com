@@ -1,0 +1,28 @@
+table { font-family:"Open Sans";}
+
+.titulo_laudo	{ font-size:222px; font-family:"Open Sans";color:#0F72BD; font-weight:bold; text-align:center; }
+.topo 			{ margin:0 auto; text-align:center; padding: 0 0 15px 0;}
+.rodape 		{ margin:0 auto; text-align:left; padding: 15px 0 0 0; font-family:"Open Sans";}
+.rod			{ color: #999; font-size:13px; font-family:"Open Sans"; }
+.titulo_adm		{ width:960px; margin:0 auto; font-size:228px; color:#999; text-align:left; border-bottom:1px dashed #DDD; padding:0 0 10px 10px; margin:20px 0 10px 0;}
+.laudo			{ font-family:"Open Sans"; font-size:13px;  -webkit-print-color-adjust: exact; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; padding:20px 10px;}
+.titulo_tabela	{ font-size:13px; font-family:"Open Sans"; border:0; color:#333; background:#EEE;}
+.titulo_first	{ font-size:13px; font-family:"Open Sans"; border:0; color:#333; background:#EEE; -moz-border-radius:5px 0px 0px 0px; -webkit-border-radius:5px 0px 0px 0px; border-radius:5px 0px 0px 0px;}
+.titulo_last	{ font-size:13px; font-family:"Open Sans"; border:0; color:#333; background:#EEE; -moz-border-radius:0px 5px 0px 0px; -webkit-border-radius:0px 5px 0px 0px; border-radius:0px 5px 0px 0px;}
+.bordatabela		{ border: 1px solid #DADADA; font-size:11px; color:#666;  -moz-border-radius:2px 2px 0px 0px; -webkit-border-radius:2px 2px 0px 0px; border-radius:2px 2px 0px 0px;}
+.formtitulo		{ font-family:"Open Sans"; text-align:left; font-size:16px; color:#81C566; padding:25px 0px 0px 0px; }
+.label			{ font-family:"Open Sans"; font-weight:bold;}
+.label2			{ font-family:"Open Sans"; font-weight:bold; font-size:16px;}
+.azul			{ color:#0F72BD;}
+.laranja		{ color:#F60; font-weight:bold;}
+.verde			{ color:#81C566; font-weight:bold;}
+.vermelho		{ color:#900; font-weight:bold;}
+
+.linhapar			{ background:#FAFAFA; }
+.linhaimpar			{ background:#FFFFFF; }
+.titulo_tabela2		{ font-size:11px; font-weight:bold; border:0; color:#666; background:#FAFAFA;}
+
+#resultados_anteriores		{ border-collapse:collapse; width:1000px; }
+#resultados_anteriores tr td{ border: 1px solid #CCC; text-align:center;}
+#resultados_anteriores .titulo_ant{ background:#EEE; text-align:center;}
+#resultados_anteriores .esquerda{ text-align:left;}

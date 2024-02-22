@@ -1,0 +1,4 @@
+[07-May-2023 23:13:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_rarray13() in /home/audipamcom/public_html/vendor/php-http/message/src/Builder/default_map.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/audipamcom/public_html/vendor/php-http/message/src/Builder/default_map.php on line 2

@@ -1,0 +1,1 @@
+[08-May-2023 07:38:41 UTC] PHP Fatal error:  strict_types declaration must be the very first statement in the script in /home/audipamcom/public_html/vendor/mailgun/mailgun-php/src/Model/MailingList/ValidationStatusResponse.php on line 3

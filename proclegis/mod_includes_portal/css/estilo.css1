@@ -1,0 +1,1101 @@
+/* #region PADRÃO*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: table;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #585757;
+  font-weight: 400;
+}
+
+.wrapper {
+  width: 1200px;
+  display: table;
+  text-align: justify;
+  line-height: 30px;
+  margin: 20px auto;
+  padding: 3% 0;
+}
+
+@media screen and (max-width:1250px){
+  .wrapper {
+    width: 90%;
+  }
+}
+
+
+.bloco_l {
+  width: 48%;
+  float: left;
+}
+
+.bloco_r {
+  width: 48%;
+  float: right;
+}
+
+@media screen and (max-width:950px){
+  .bloco_l {
+    width: 100%;
+  }
+  
+  .bloco_r {
+    width: 100%;
+  }
+
+}
+
+.titulo{
+  font-size: 35px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.subtitulo {
+  font-size: 25px;
+  line-height: 20px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.destaque {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #d67d3a;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #595a5c;
+  font-family: "Source Sans Pro Condensed", sans-serif;
+  font-size: 17px;
+}
+
+:-moz-placeholder {
+  color: #595a5c;
+  font-family: "Source Sans Pro Condensed", sans-serif;
+  font-size: 17px;
+}
+
+::-moz-placeholder {
+  color: #595a5c;
+  font-family: "Source Sans Pro Condensed", sans-serif;
+  font-size: 17px;
+}
+
+:-ms-input-placeholder {
+  color: #595a5c;
+  font-family: "Source Sans Pro Condensed", sans-serif;
+  font-size: 17px;
+}
+
+input[type='text'], 
+input[type='date'], 
+textarea {
+  color: #595a5c;
+  font-family: "Source Sans Pro Condensed", sans-serif;
+  font-size: 17px;  
+}
+
+.paginacao {
+  width: 100%;
+  display: table;
+  margin-bottom: 30px;
+}
+
+.paginacao a {
+  color: #4f0607;
+}
+
+.laranja {
+  color: #d67d3a;
+}
+
+.verde {
+  color:#437155;
+}
+
+.cinza {
+  color:#585757;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  display: table;
+}
+
+table tr td {
+  padding: 3% 0;
+  text-align: center;
+  max-width: 200px;
+}
+
+table tr td i {
+  font-size: 25px;
+  color: #437155;
+}
+
+table tr td  #acesso{
+  font-size: 30px;
+  color: #437155;
+}
+
+.linhaimpar{
+  background: #f2f2f2;
+}
+
+.linhapar{
+  background: #ffff;
+}
+
+/* #endregion */
+
+/* #region TOPO*/
+.topo {
+  width: 100%;
+  display: table;
+}
+
+.topo .faixa {
+  width: 100%;
+  padding: 10px 0;
+  background: #f4f4f4;
+  display: table;
+  color: #585757;
+  position: fixed;
+  z-index: 999999;
+}
+
+.topo .faixa #faixa {
+  width: 1200px;
+  float: none;
+  display: table;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:1250px){
+  .topo .faixa #faixa {
+    width: 90%;
+  }
+}
+
+.topo .faixa #faixa i {
+  color: #585757;
+  margin-right: 10px;
+  cursor:pointer; 
+}
+
+.topo .faixa #faixa .acess{
+  width: 300px;
+  float: right;  
+  display: table;
+  text-align: right;
+}
+
+.topo #topo {
+  width: 1200px;
+  margin: 0 auto;
+  display: table;
+  margin: 60px auto 30px auto;
+}
+
+.topo .logo {
+  width: 15%;
+  float: left;
+}
+
+.topo .logo img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.topo .logo_c{
+  display: table;
+}
+.topo .logo_w{
+  display: none;
+}
+
+
+.topo .menu {
+  width: 80%;
+  float: right;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1250px) {
+  .topo .menu {
+    width: 100%;
+  }
+  .topo .logo {
+    width: 100%;
+  }
+  .topo .logo img {
+    margin: 0 auto;
+  }
+  .topo #topo {
+    width: 100%;
+  }
+}
+
+.banner-top {
+  width: 100%;
+  padding: 80px 0;
+  background: url('../imagens/site/banner-top.png') center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+
+/* #endregion */
+
+/* #region RODAPE*/
+.rodape {
+  width: 100%;
+  margin: 0 auto;
+  display: table;
+  background: #437155;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.rodape #rodape {
+  width: 1200px;
+  margin: 0 auto;
+  display: table;
+}
+
+@media screen and (max-width:1250px){
+  .rodape #rodape {
+    width: 90%;
+  }
+}
+
+.rodape #rodape .bloco1{
+  float: left;
+  width: 33%;
+}
+
+.rodape #rodape .bloco1 img{
+  width: 95%;
+  max-width: 240px;
+  display: table;
+  margin: 0 auto;
+  float: none;
+  margin-top: 50px
+}
+
+.rodape #rodape .bloco2{
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.rodape #rodape .bloco2 .titulo{
+  text-align: center;
+}
+
+.rodape #rodape .bloco3 {
+ width: 27%;
+ float: right;
+ margin-top: 35px;
+}
+
+@media screen and (max-width:1000px){
+  .rodape #rodape .bloco1{
+    width: 100%;
+
+  }
+  .rodape #rodape .bloco2{
+    width: 100%;
+    text-align: center;
+  }
+  .rodape #rodape .bloco2 .titulo{
+    text-align: center;
+  }
+  .rodape #rodape .bloco3 {
+    width: 100%;
+    margin-top: 30px;
+   }
+   .rodape #rodape .bloco1 img{
+      margin: 0 auto;
+      float: none; 
+      display: table;
+   }
+  
+}
+
+.rodape #copy {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+@media screen and (max-width:360px){
+  .rodape #rodape .bloco2{
+    font-size: 14px;
+  }
+}
+
+/* #endregion*/
+
+/*#region HOME*/
+.home .faixa {
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  line-height: 40px;
+  display: table;
+}
+
+.home .faixa a {
+  color: #fff;
+}
+
+.home .faixa .bloco_ps {
+  width: 19%; 
+  float: left;
+  display: table;
+  line-height: 25px; 
+  height: 220px;
+  padding: 0 3%; 
+  padding-top: 25px;
+}
+
+@media screen and (max-width:950px){
+  .home .faixa .bloco_ps {
+    width: 44%;
+  }
+}
+
+@media screen and (max-width:450px){
+  .home .faixa .bloco_ps {
+    width: 94%;
+  }
+}
+
+
+.home .faixa .bloco_ps b {
+  font-size: 18px;
+}
+
+.home .faixa .bloco_ps i {
+  font-size: 60px;
+
+}
+
+.home .faixa #bl1 { background: #c16a28;}
+.home .faixa #bl2 { background: #d67d3a;}
+.home .faixa #bl3 { background: #dd925a;}
+.home .faixa #bl4 { background: #e4a87b ;}
+
+.home .home_sobre {
+  margin-top: 100px;
+}
+
+.home .home_sobre .bloco_l img {
+  border-radius:15px;
+  width: 95%;
+  max-width: 750px;
+  margin: 0 auto;
+  display: table;
+  float: none;
+}
+
+
+/*#endregion*/
+
+/* #region FAIXA APOSENTADORIA*/
+  .home_aposentadoria {
+      width: 100%;
+      height: 250px;
+      background: #437155;
+      color: #fff;
+  }
+/* #endregion*/
+
+/* #region NOTICIAS HOME*/
+.noticias_home {
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 0;
+  display: table;
+}
+
+.noticias_home a {
+  color: #585757;
+}
+
+.noticias_home .destaque {
+  width: 45%;
+  float: right;
+  display: table;
+}
+
+@media screen and (max-width:950px){
+  .noticias_home .destaque {
+    width: 100%;
+  }
+}
+
+
+#slides2, 
+.switch_main,
+.item {
+  width: 100%;
+  display: table;
+  height: 370px;
+}
+
+.noticias_home .destaque .not {
+  width: 100%;
+  display: table;
+}
+.noticias_home .destaque .not .ttl_not{
+  width: 90%;
+  padding: 5%;
+  margin-top: 250px;
+  text-align: left;
+  display: table;
+  background: #437155;
+  color: #fff;
+  font-size: 16px;
+}
+
+.noticias_home .destaque .not .ttl_not .data{
+  font-style: italic;
+
+}
+
+.noticias_home .mais_noticias {
+  width: 51%;
+  float: left;
+  display: table;
+}
+
+@media screen and (max-width:950px){
+  .noticias_home .mais_noticias {
+    width: 100%;
+  }
+}
+
+.noticias_home .mais_noticias .bloco {
+  width: 100%;
+  display: table;
+  padding: 15px 0;
+  border-bottom:1px solid #ccc ;
+}
+
+
+/* #endregion*/
+
+/* #region EVENTOS*/
+.home_eventos {
+  width: 100%;
+  background: #f4f4f4;
+}
+
+.home_eventos a {
+  color: #585757;
+}
+
+.home_eventos .bloco{
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+  display: table;
+}
+
+@media screen and (max-width:700px){
+  .home_eventos .bloco{
+    width: 97%;
+  }
+}
+
+
+.home_eventos .bloco .ev_imagem {
+  width: 100%;
+  height: 250px;
+}
+.home_eventos .destaque .not .ttl_not{
+  width: 90%;
+  padding: 5%;
+  text-align: left;
+  display: table;
+}
+
+/* #endregion*/
+
+/* #region ENTIDADES*/
+#entidades .bloco {
+  width: 16.67%;
+  float: left;
+  display: table;
+  margin: 2% 0;
+}
+
+@media screen and (max-width:700px){
+  #entidades .bloco {
+    width: 25%;
+  }
+}
+/* #endregion*/
+
+/* #region PORTAL TRANSPARENCIA*/
+
+.conteudo { 
+  width: 70%;
+  float: left;
+  display: table;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+} 
+
+.conteudo .bloco_portal{
+  width: 29%;
+  float: left;
+  display: table;
+  margin: 1%;
+  padding: 60px 1%;
+  text-align: center;
+  background: #e3e3e3e3;
+  font-size: 20px;
+  font-weight: bold; 
+  transition: 0.3s; 
+  height: 70px;
+}
+
+.conteudo .bloco_portal:hover{
+  background: #cccccc;
+}
+
+.conteudo  a {
+  color: #585757;
+}
+
+.conteudo .ata {
+  float: left;
+  margin: 1%;
+  text-align: center;
+  font-size: 20px;
+  color: #437155;
+  padding: 10px 25px;
+  border-radius:10px; 
+  border: 1px solid #437155;
+}
+
+.conteudo .atas {
+  width: 100%;
+  display: table;
+  margin:50px 0;
+  border-top:1px solid #ccc;
+  padding-top: 30px;
+}
+
+.conteudo .selecione {
+  width: 300px;
+  float: right;
+  display: table;
+}
+.conteudo .selecione select {
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  border: 1px solid #cccc;
+  padding: 5px 30px;
+}
+
+.conteudo .filtro {
+  width: 500px;
+  float: right;
+  margin-bottom: 50px;
+  margin-top: -50px;
+}
+.conteudo .filtro input[type='date']{
+  width: 210px;
+  float: left;
+  margin-right: 15px;
+  padding: 5px 10px;
+}
+
+.conteudo .busca {
+  width: 45px;
+  padding: 10px 0;
+  background: #437155;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  float: right;
+}
+
+@media screen and (max-width:695px){
+  .conteudo .selecione {
+    width:100%;
+    display: table;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .conteudo .selecione select{
+    margin: 0 auto;
+  }
+}
+
+.veja {
+  width: 20%;
+  padding: 1% 3%;
+   float: right;
+   background: #efefef;
+   text-align: left;
+ }
+.veja a {
+  transition: 0.3s;
+  color: #585757; 
+  line-height: 20px;
+  text-align: left;
+  font-size: 14px;
+ }
+.veja a:hover {
+   margin-left: 15px; 
+ }
+
+
+ @media screen and (max-width:1200px){
+  .conteudo { 
+    width: 100%;
+    float: none;
+  } 
+  .veja {
+    width: 95%;
+    background: none;
+   }
+}
+
+@media screen and (max-width:900px){
+  .conteudo .bloco_portal{
+    width: 47%;
+  }
+}
+
+@media screen and (max-width:580px){
+  .conteudo .bloco_portal{
+    width: 97%;
+  }
+}
+
+/* #endregion*/
+
+/* #region PÁGINAS PORTAL TRANSPARENCIA*/
+
+.ultimas_noticias {
+  width: 100%;
+  display: table;
+  background: #f4f4f4;
+}
+
+.ultimas_noticias a {
+  color: #585757;
+}
+
+.ultimas_noticias .bloco {
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+  display: table;
+}
+
+.ultimas_noticias .bloco .not{
+ height:250px
+}
+
+@media screen and (max-width:950px){
+  .ultimas_noticias .bloco {
+    width: 100%;
+    margin: 20px auto;
+    display: table;
+  }
+
+  .ultimas_noticias .bloco .not{
+    width: 30%;
+    float: left;
+    height: 100px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width:500px){
+  .ultimas_noticias .bloco .not{
+    width: 100%;
+    float: none;
+    height: 150px;
+    margin-right: 0;
+  }
+}
+
+/* #endregion*/
+
+/* #region  COMPRAS CONTRATOS LICITAÇÕES*/
+.conteudo .clc {
+  width: 100%;
+  display: table;
+}
+
+/* #endregion*/
+
+/* #region PÁGINA DE EVENTOS*/
+.eventos a {
+  color: #585757;
+}
+
+.eventos .bloco {
+ width: 30%;
+ float: left;
+ display: table;
+ margin: 1.5%;
+}
+
+.eventos .ev_imagem {
+  width: 100%;
+  height: 200px;
+}
+
+.eventos .imagens {
+  width: 100%;
+  display: table;
+}
+
+.eventos .imagens .bloco {
+  width: 22%;
+  float: left;
+  margin: 1.5%;
+  height: 200px;
+}
+
+.eventos .voltar {
+  float: right;
+  padding: 10px 30px;
+  background: #437155;
+  color: #fff;
+}
+
+/* #endregion*/
+
+/* #region PÁGINA DE NOTICIAS*/
+.na-midia a {
+  color: #585757;
+}
+
+.na-midia .destaque {
+  width: 48%;
+  float: left;
+}
+
+.na-midia .destaque .not {
+  display: table;
+  height: 320px;
+  width: 100%;
+}
+
+.na-midia .destaque .not .ttl_not {
+  width: 94%;
+  padding: 2% 3%;
+  position: absolute;
+  bottom: 0;
+  background: #437155;
+  color: #ffff;
+  display: table;
+  font-size: 16px;
+}
+
+.na-midia .mais_destaques {
+  width: 48%;
+  float: right;
+}
+
+.na-midia .mais_noticias {
+ width: 100%;
+ margin: 0 auto;
+ display: table;
+
+}
+
+.na-midia .mais_noticias .bloco {
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+}
+
+.na-midia .desc .not_imagem{
+   width: 50%;
+   height: 20vw;
+   margin: 0 auto;
+   display: table;
+   float: none;
+}
+
+.na-midia .mais_noticias .bloco .not_imagem{
+  width: 100%;
+  height: 200px;
+}
+
+.compartilhar i {
+  font-size: 25px;
+  margin-right: 5px;
+  color: #c16a28;
+}
+
+/* #endregion*/
+
+/* #region CONTATO*/
+#contato .bloco_l {
+  width: 48%;
+  float: left;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#contato .bloco_r {
+  width: 48%;
+  float: right;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+#contato input[type='text']{
+  width: 100%;
+  padding: 10px 2%;
+  display: table;
+  margin: 5px 0;
+}
+
+#contato select {
+  width: 100%;
+  padding: 10px 2%;
+  display: table;
+  margin: 5px 0;
+  color: #585757;
+}
+
+#contato textarea {
+ width: 100%;
+ padding: 10px 2%;
+ margin: 10px 0;
+ height: 290px;
+}
+
+#contato #bt_enviar {
+  float: right;
+}
+
+#bt_enviar {
+  margin: 10px 0;
+  padding: 10px 15px;
+  color: #fff;
+  background: #437155;
+  border: none;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#bt_enviar:hover {
+  background: #c16a28;
+}
+
+@media screen and (max-width:780px){
+  #contato .bloco_l {
+    width: 100%;
+  }
+  
+  #contato .bloco_r {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* #endregion*/
+
+/* #region MAPA DO SITE*/
+.mapa {
+  width: 100%;
+  margin: 0 auto;
+  display: table;
+  margin-top: 50px;
+}
+
+.mapa .bloco {
+  width: 28%; 
+  float: left;
+  min-height: 400px;
+  background: #efefef;
+  padding: 1.6%;
+  margin: 1%;
+}
+
+.mapa .bloco a {
+  color: #585757;
+  transition: 0.3s;
+}
+
+.mapa .bloco a:hover {
+  margin-left: 8px;
+}
+
+.mapa li {
+  list-style: none;
+  text-align: left;
+}
+
+@media screen and (max-width:1100px){
+  .mapa .bloco {
+     width: 44%;
+     padding: 2%;
+  }
+}
+
+@media screen and (max-width:685px){
+  .mapa .bloco {
+     width: 94%;
+     height:  auto;
+  }
+}
+
+/* #endregion*/
+
+/*#region PAGINA DOCUMENTOS BENEFÍCIOS*/
+  .bloco_bnd {
+    width: 28%;
+    float: left;
+    margin: 1%;
+    padding: 1.5%;
+    min-height: 100px;
+    background: #efefef;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .bloco_bnd:hover {
+    background: #cccccc;
+  }
+
+  @media screen and (max-width:800px){
+    .bloco_bnd {
+      width: 45%;
+    }
+  }
+
+  @media screen and (max-width:400px){
+    .bloco_bnd {
+      width: 95%;
+    }
+  }
+
+  
+/* #endregion*/
+
+/*#region CONTRASTE*/
+body#contrastePreto{
+  background: #000; 
+  color: #fff; 
+}
+body#contrastePreto a, 
+body#contrastePreto .laranja, 
+body#contrastePreto .verde, 
+body#contrastePreto .cinza,
+body#contrastePreto .conteudo a,
+body#contrastePreto .veja a {
+  color: #fff;
+}
+
+body#contrastePreto .home_eventos,
+body#contrastePreto .home .faixa #bl1,
+body#contrastePreto .home .faixa #bl2,
+body#contrastePreto .home .faixa #bl3, 
+body#contrastePreto .home .faixa #bl4, 
+body#contrastePreto .topo .faixa,
+body#contrastePreto nav ul li ul li, 
+body#contrastePreto .ultimas_noticias, 
+body#contrastePreto .conteudo .bloco_portal, 
+body#contrastePreto .veja, 
+body#contrastePreto .bloco_bnd {
+  background: #333;
+  color: #fff; 
+}
+
+body#contrastePreto .topo .faixa #faixa i {
+  color: #fff;
+}
+
+body#contrastePreto .logo_c {
+  display: none
+}
+
+body#contrastePreto .logo_w {
+  display: table
+}
+
+body#contrastePreto .rodape {
+  background: #333
+}
+
+body#contrastePreto .noticias_home .destaque .not .ttl_not {
+  background: #333
+}
+
+body#contrastePreto table tr td i {
+  color: #fff;
+}
+
+body#contrastePreto table tr td  #acesso{
+  color: #fff;
+}
+
+body#contrastePreto .linhaimpar{
+  background: #242424;
+}
+
+body#contrastePreto .linhapar{
+  background: #333;
+}
+
+
+/* #endregion*/
+
+/* #region PORTAL PRÉ APOSENTADORIA*/
+
+.galeria {
+  width: 100%;
+  display: table;
+  margin: 50px  0;
+}
+
+.galeria .bloco {
+  width: 21%;
+  float: left;
+  margin: 2%;
+}
+
+.galeria .bloco .ap_imagem {
+  width: 100%;
+  height: 200px;
+}
+
+/* #endregion*/
